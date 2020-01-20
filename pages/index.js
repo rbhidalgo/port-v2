@@ -2,9 +2,9 @@ import Layout from '../components/Layout'
 
 const Index = () => (
     <Layout>
-<div>
+<>
     
-    <h1>Hi!</h1></div>
+    <h1>Hi!</h1></>
     </Layout>)
 
 
