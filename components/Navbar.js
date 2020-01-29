@@ -13,6 +13,7 @@ const Navbar = () => (
         color: #fff;
         list-style: none;
         display: flex;
+        margin: 0;
     }
     ul li {
         font-size: 18;
