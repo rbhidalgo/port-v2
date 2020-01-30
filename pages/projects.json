@@ -13,7 +13,7 @@
     },
     {
         "id": "2",
-        "image": "/img/taco-crawl-browser2.jpg",
+        "image": "/img/beer-o-slots-browser.jpg",
         "name": "Beer O' Slots V2",
         "description": "Worked along with a UX-UI designer to revamp the game and made it more user friendly<br>Wrote javascript functions to check matching images horizontally, vertically and diagonally",
         "tech": ["HTML5", "CSS3", "Vanilla Javascript", "Javascript"],
