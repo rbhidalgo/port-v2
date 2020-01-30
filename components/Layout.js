@@ -32,6 +32,10 @@ const Layout = ({children, title}) => (
           line-height: 1.5;
           color: #333;
         }
+        main {
+          max-width: 90%;
+    margin: 0 auto;
+        }
         
       `}</style>
     </>
