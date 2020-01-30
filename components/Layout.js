@@ -4,19 +4,22 @@ import Footer from './Footer'
 
 
 const Layout = ({children, title}) => (
-    <main>
+    <>
         <Head>
 <title>{title}</title>
         </Head>
         <Navbar />
-        <div>
+        <main>
         {children}
-        </div>
+        </main>
         <Footer />
         <style jsx global>{`
+        * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
             html{
-                margin: 0;
-                padding: 0;
                 /* 1 rem will equal 10px */
 	              font-size: 62.5%;
             }
@@ -31,7 +34,7 @@ const Layout = ({children, title}) => (
         }
         
       `}</style>
-    </main>
+    </>
 )
 
 export default Layout
