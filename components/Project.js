@@ -12,7 +12,8 @@ const Project = ({image, name, description1, description2, tech, githubLink, sit
 
     return (
         <ul>
-        <li className="project-item"><div className="project-img" style={{backgroundImage: `url("${image}")`}}></div>
+        <li className="project-item">
+        <div className="project-img" style={{backgroundImage: `url("${image}")`}}></div>
         {/* <img src={props.image} alt="`screenshot of project ${props.name}`" /> */}
         <h1>
             {name}
@@ -25,6 +26,7 @@ const Project = ({image, name, description1, description2, tech, githubLink, sit
     <a href={githubLink} target="_blank">Github Link</a>
     <a href={siteLink} target="_blank">Site Link</a>
 
+            {responsive ? <p>responsive</p> : <p>not responsive</p>}
 
             </li>
             <style jsx>{`
