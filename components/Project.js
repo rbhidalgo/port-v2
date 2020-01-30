@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-const Project = props => {
+const Project = ({image, name, description, tech, github, live, responsive}) => {
     // const backgroundImg = {
     //         width: "70%",
     //         height: "400px",
@@ -9,12 +9,12 @@ const Project = props => {
     // }
     return (
         <ul>
-        <li><div className="project-img" style={{backgroundImage: `url("${props.image}")`}}></div>
+        <li><div className="project-img" style={{backgroundImage: `url("${image}")`}}></div>
         {/* <img src={props.image} alt="`screenshot of project ${props.name}`" /> */}
         <h1>
-            {props.name}
+            {name}
             </h1>
-
+    <p>{description}</p>
            
             </li>
             <style jsx>{`
