@@ -17,13 +17,15 @@ const Layout = ({children, title}) => (
             html{
                 margin: 0;
                 padding: 0;
+                /* 1 rem will equal 10px */
+	              font-size: 62.5%;
             }
         body {
           margin: 0;
           font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;
-          font-size: 14px;
+          font-size: 1.6rem;
           line-height: 1.5;
           color: #333;
         }

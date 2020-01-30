@@ -21,6 +21,8 @@ const Navbar = () => (
         justify-content: space-evenly;
         background: #333;
         color: #fff;
+        position: sticky;
+        top: 0;
     }
     ul {
        
@@ -29,7 +31,7 @@ const Navbar = () => (
         margin: 0;
     }
     ul li {
-        font-size: 18;
+        font-size: 1.8rem;
         margin-right: 20px;
     }
 
@@ -38,7 +40,7 @@ const Navbar = () => (
         text-decoration: none;
     }
     nav img{
-        width: 60px;
+        width: 1.8rem;
     }
 `}</style>
     </nav>
