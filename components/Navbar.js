@@ -25,11 +25,11 @@ const Navbar = () => (
         justify-content: space-evenly;
         
         color: #fff;
-        position: sticky;
-        top: 0;
     }
     header {
         background: #333;
+        position: sticky;
+  top: 0;
     }
 
     ul {

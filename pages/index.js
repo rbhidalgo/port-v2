@@ -8,7 +8,7 @@ const Index = () => (
     <section className="intro">
     <h1>Hi!</h1>
     </section>
-    <section className="projects-section">
+    <section className="projects-container">
     {projects.map((project, index) => {
     return <Project key={index} {...project} />
         })}
