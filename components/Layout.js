@@ -27,6 +27,7 @@ const Layout = ({children, title}) => (
           line-height: 1.5;
           color: #333;
         }
+        
       `}</style>
     </main>
 )
