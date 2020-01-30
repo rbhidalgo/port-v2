@@ -8,14 +8,17 @@ const Navbar = () => (
     <li><Link href="/about"><a>About</a></Link></li>
     <li><Link href="/projects"><a>Projects</a></Link></li>
         </ul>
+        <div className="nav-right-socials">
         <img src="/img/github.svg"/>
         <img src="/img/linkedin.svg"/>
         <img src="/img/docicon.svg"/>
+        </div>
         
 <style jsx>{`
     nav {
         display: flex;
         width: 100%;
+        justify-content: space-evenly;
     }
     ul {
         background: #333;
