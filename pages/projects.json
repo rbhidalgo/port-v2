@@ -3,24 +3,25 @@
         "id": "1",
         "image": "/img/taco-crawl-browser2.jpg",
         "name": "Taco Crawl",
-        "description": "Full stack MERN web app that generates random restaurants that serve tacos using the Yelp API<br>To save a crawl or individual restaurants, the user can register for an account and view their profile",
+        "description1": "Full stack MERN web app that generates random restaurants that serve tacos using the Yelp API",
+        "description2": "To save a crawl or individual restaurants, the user can register for an account and view their profile",
         "tech": ["MongoDB", "Express", "React", "Node.js", "CSS", "Google Maps", "Yelp API"],
-        "links": {
-            "github": "https://github.com/rbhidalgo/tacocrawl",
-            "live": "https://la-taco-crawl.herokuapp.com/"
-        },
+        
+            "githubLink": "https://github.com/rbhidalgo/tacocrawl",
+            "siteLink": "https://la-taco-crawl.herokuapp.com/",
+    
         "responsive": true
     },
     {
         "id": "2",
         "image": "/img/beer-o-slots-browser.jpg",
         "name": "Beer O' Slots V2",
-        "description": "Worked along with a UX-UI designer to revamp the game and made it more user friendly<br>Wrote javascript functions to check matching images horizontally, vertically and diagonally",
+        "description1": "Worked along with a UX-UI designer to revamp the game and made it more user friendly",
+        "description2": "Wrote javascript functions to check matching images horizontally, vertically and diagonally",
         "tech": ["HTML5", "CSS3", "Vanilla Javascript", "Javascript"],
-        "links": {
-            "github": "https://github.com/rbhidalgo/slot-machine-v2",
-            "live": "https://rbhidalgo.github.io/slot-machine-v2/"
-        },
+        
+            "githubLink": "https://github.com/rbhidalgo/slot-machine-v2",
+            "siteLink": "https://rbhidalgo.github.io/slot-machine-v2/",
         "responsive": false
     }
 ]
