@@ -19,10 +19,11 @@ const Navbar = () => (
         display: flex;
         width: 100%;
         justify-content: space-evenly;
-    }
-    ul {
         background: #333;
         color: #fff;
+    }
+    ul {
+       
         list-style: none;
         display: flex;
         margin: 0;

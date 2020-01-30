@@ -3,14 +3,14 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 
 
-const Layout = (props) => (
+const Layout = ({children, title}) => (
     <main>
         <Head>
-            <title>Full Stack Web Developer | Rogelio Hidalgo | Los Angeles, CA</title>
+<title>{title}</title>
         </Head>
         <Navbar />
         <div>
-        {props.children}
+        {children}
         </div>
         <Footer />
         <style jsx global>{`
