@@ -2,7 +2,8 @@ import Link from 'next/link'
 
 
 const Navbar = () => (
-    <nav>
+    <header>
+        <nav>
         <ul>
         <li><Link href="/"><a>Home</a></Link></li>
     <li><Link href="/about"><a>About</a></Link></li>
@@ -13,17 +14,24 @@ const Navbar = () => (
         <img src="/img/linkedin.svg"/>
         <img src="/img/docicon.svg"/>
         </div>
-        
+        </nav>
 <style jsx>{`
     nav {
         display: flex;
-        width: 100%;
+        width: 90%;
+        margin: auto;
+        min-height: 6vh;
+        align-items: center;
         justify-content: space-evenly;
-        background: #333;
+        
         color: #fff;
         position: sticky;
         top: 0;
     }
+    header {
+        background: #333;
+    }
+
     ul {
        
         list-style: none;
@@ -43,7 +51,7 @@ const Navbar = () => (
         width: 1.8rem;
     }
 `}</style>
-    </nav>
+    </header>
 )
 
 export default Navbar;
