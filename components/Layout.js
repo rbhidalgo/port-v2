@@ -31,11 +31,20 @@ const Layout = ({children, title}) => (
           font-size: 1.6rem;
           line-height: 1.5;
           color: #333;
+          animation: opening 2s ease-in-out;
         }
         main {
           max-width: 90%;
     margin: 0 auto;
         }
+        @keyframes opening {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
         
       `}</style>
     </>
