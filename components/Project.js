@@ -15,6 +15,7 @@ const Project = ({image, name, description1, description2, tech, githubLink, sit
         <li className="project-item">
         <div className="project-img" style={{backgroundImage: `url("${image}")`}}></div>
         {/* <img src={props.image} alt="`screenshot of project ${props.name}`" /> */}
+        <div className="project-content">
         <h1>
             {name}
             </h1>
@@ -27,15 +28,25 @@ const Project = ({image, name, description1, description2, tech, githubLink, sit
     <a href={siteLink} target="_blank">Site Link</a>
 
             {responsive ? <p>responsive</p> : <p>not responsive</p>}
-
+            </div>
             </li>
             <style jsx>{`
                 .project-img {
+                    flex: 1;
                     width: 50%;
     height: 400px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+                }
+                li.project-item {
+                    display: flex;
+                }
+                .project-tech-tags {
+                    display: flex;
+                }
+                .project-content {
+                    flex: 1;
                 }
                 `}
             </style>
