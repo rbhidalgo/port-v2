@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Navbar = () => (
     <header>
         <nav>
-        <ul>
+        <ul className="nav-links">
         <li><Link href="/"><a>Home</a></Link></li>
     <li><Link href="/about"><a>About</a></Link></li>
     <li><Link href="/projects"><a>Projects</a></Link></li>
@@ -33,8 +33,8 @@ const Navbar = () => (
   top: 0;
     }
 
-    ul {
-       
+    ul.nav-links {
+        flex: 1;
         list-style: none;
         display: flex;
         margin: 0;
@@ -48,9 +48,20 @@ const Navbar = () => (
         color: #fff;
         text-decoration: none;
     }
-    nav img{
-        width: 1.8rem;
+    .nav-right-socials {
+        display: flex;
+    flex: 1;
+    justify-content: flex-end;
     }
+    .nav-right-socials img {
+        width: 1.8rem;
+        margin-right:  1.2rem;
+    }
+
+    .nav-right-socials img:last-child {
+        margin-right: 0;
+    }
+
 `}</style>
     </header>
 )
