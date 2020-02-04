@@ -19,7 +19,7 @@ const Navbar = () => (
     nav {
         display: flex;
         width: 90%;
-        margin: auto;
+        margin: 0 auto;
         min-height: 6vh;
         align-items: center;
         justify-content: space-evenly;
@@ -27,6 +27,7 @@ const Navbar = () => (
         color: #fff;
     }
     header {
+        
         background: #333;
         position: sticky;
   top: 0;

@@ -35,7 +35,7 @@ font-style: normal;
           animation: opening 2s ease-in-out;
         }
         div.container {
-          max-width: 1366px;
+          width: 100vw;
         }
         main {
           width: 100vw;
