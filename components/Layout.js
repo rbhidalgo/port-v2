@@ -4,7 +4,7 @@ import Footer from './Footer'
 
 
 const Layout = ({children, title}) => (
-    <>
+    <div className="container">
         <Head>
 <title>{title}</title>
         </Head>
@@ -33,9 +33,13 @@ const Layout = ({children, title}) => (
           color: #333;
           animation: opening 2s ease-in-out;
         }
+        div.container {
+          max-width: 1366px;
+        }
         main {
-          max-width: 90%;
-    margin: 0 auto;
+          max-width: none;
+          width: 100vw;
+          background-color: red;
         }
         @keyframes opening {
 	from {
@@ -47,7 +51,7 @@ const Layout = ({children, title}) => (
 }
         
       `}</style>
-    </>
+    </div>
 )
 
 export default Layout
