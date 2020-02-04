@@ -43,6 +43,9 @@ const Navbar = () => (
     ul li {
         font-size: 1.8rem;
         margin-right: 2.4rem;
+        font-family: presicav, sans-serif;
+font-weight: 900;
+font-style: normal;
     }
 
     ul li a {
