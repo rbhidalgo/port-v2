@@ -10,9 +10,10 @@ const Navbar = () => (
     <li><Link href="/projects"><a>Projects</a></Link></li>
         </ul>
         <div className="nav-right-socials">
-        <img src="/img/github.svg"/>
-        <img src="/img/linkedin.svg"/>
-        <img src="/img/docicon.svg"/>
+        <img src="/socials/bxs-file-pdf.svg"/>
+        <img src="/socials/bxl-github.svg"/>
+        <img src="/socials/bxl-linkedin-square.svg"/>
+        <img src="/socials/bxl-dribbble.svg"/>
         </div>
         </nav>
 <style jsx>{`
@@ -20,15 +21,15 @@ const Navbar = () => (
         display: flex;
         width: 90%;
         margin: 0 auto;
-        min-height: 6vh;
+        min-height: 7.5rem;
         align-items: center;
         justify-content: space-evenly;
-        
-        color: #fff;
+        text-transform: uppercase;
+        color: #333;
     }
     header {
         
-        background: #333;
+        background: #fff;
         position: sticky;
   top: 0;
     }
@@ -41,11 +42,11 @@ const Navbar = () => (
     }
     ul li {
         font-size: 1.8rem;
-        margin-right: 20px;
+        margin-right: 2.4rem;
     }
 
     ul li a {
-        color: #fff;
+        color: #333;
         text-decoration: none;
     }
     .nav-right-socials {
@@ -54,8 +55,8 @@ const Navbar = () => (
     justify-content: flex-end;
     }
     .nav-right-socials img {
-        width: 1.8rem;
-        margin-right:  1.2rem;
+        width: 2.4rem;
+        margin-right:  1.8rem;
     }
 
     .nav-right-socials img:last-child {
