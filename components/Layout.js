@@ -7,6 +7,7 @@ const Layout = ({children, title}) => (
     <div className="container">
         <Head>
 <title>{title}</title>
+<link rel="stylesheet" href="https://use.typekit.net/juf8edt.css"></link>
         </Head>
         <Navbar />
         <main>
