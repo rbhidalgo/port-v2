@@ -26,10 +26,10 @@ const Layout = ({children, title}) => (
             }
         body {
           margin: 0;
-          font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-          font-size: 1.6rem;
+          font-family: nimbus-sans-extended, sans-serif;
+font-weight: 400;
+font-style: normal;
+          font-size: 1.5rem;
           line-height: 1.5;
           color: #333;
           animation: opening 2s ease-in-out;
@@ -38,9 +38,7 @@ const Layout = ({children, title}) => (
           max-width: 1366px;
         }
         main {
-          max-width: none;
           width: 100vw;
-          background-color: red;
         }
         @keyframes opening {
 	from {
