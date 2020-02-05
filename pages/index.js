@@ -17,7 +17,7 @@ const Index = () => (
         <div className="intro-images">
             <img src="/img/beer-o-slots-browser2.png"/>
         </div>
-        <div className="intro-image-bkg"></div>
+        <div className="intro-img-bkg"></div>
     </div>
     </section>
     <section className="projects-container">
@@ -38,6 +38,28 @@ const Index = () => (
 
                 div.intro-right-container {
                     flex: 1;
+                }
+                div.intro-images {
+                    position: absolute;
+    background-color: lightgrey;
+    width: 21rem;
+    border-radius: 0.6rem;
+    height: 31.6rem;
+    top: 50%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+                }
+                div.intro-img-bkg {
+                    width: 18.5rem;
+    height: 45.0rem;
+    background-color: lightslategray;
+    top: 50%;
+    right: 5%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: .6rem;
+    z-index: 1;
                 }
 
 
