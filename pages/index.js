@@ -13,6 +13,13 @@ const Index = () => (
     return <Project key={index} {...project} />
         })}
     </section>
+        <style jsx>{`
+                section.intro{
+                    background-color: beige;
+                    height: calc(100vh - 7.5rem);
+                }
+
+            `}</style>
     </Layout>)
 
 
