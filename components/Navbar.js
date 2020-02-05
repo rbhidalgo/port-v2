@@ -31,7 +31,8 @@ const Navbar = () => (
         
         background: #fff;
         position: sticky;
-  top: 0;
+        top: 0;
+        z-index: 10;
     }
 
     ul.nav-links {

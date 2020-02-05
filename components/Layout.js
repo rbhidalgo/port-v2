@@ -39,6 +39,9 @@ font-style: normal;
           color: #333;
           animation: opening 2s ease-in-out;
         }
+        img {
+          width: 100%;
+        }
         div.container {
           width: 100vw;
         }
