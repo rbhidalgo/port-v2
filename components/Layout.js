@@ -15,6 +15,11 @@ const Layout = ({children, title}) => (
         </main>
         <Footer />
         <style jsx global>{`
+        :root {
+            --presicav: presicav, sans-serif;
+            --nimbus: nimbus-sans-extended, sans-serif;
+            --farm-new: farm-new, sans-serif;
+        }
         * {
 	margin: 0;
 	padding: 0;
