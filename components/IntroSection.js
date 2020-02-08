@@ -31,16 +31,15 @@ const IntroSection = () => {
     grid-column-gap: 2.4rem;
                 }
                 div.intro-left-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     grid-column-start: 2;
     grid-column-end: 8;
+    align-self: center;
                 }
 
                 div.intro-right-container {
                     grid-column-start: 8;
     grid-column-end: 12;
+    position: relative;
                 }
                 div.intro-images {
                     position: absolute;
