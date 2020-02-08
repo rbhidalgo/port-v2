@@ -7,8 +7,8 @@ const Project = ({ index, image, name, description1, description2, tech, githubL
     //         backgroundImage: `url("${props.image}")`,
 
     // }
-    const techItems = tech.map((tech) =>
-        <li>{tech}</li>)
+    const techItems = tech.map((tech, i) =>
+        <li key={i}>{tech}</li>)
 
     return (
         <ul>
