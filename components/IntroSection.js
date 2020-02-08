@@ -5,7 +5,7 @@ const IntroSection = () => {
     return (
         <section className="intro">
         <div className="intro-left-container">
-    <p>Rogelio Hidalgo, Full Stack</p>
+    <p className="headline-body">Rogelio Hidalgo, Full Stack</p>
     <h1>Web Developer</h1>
     <p>with a creative edge</p>
     <p>focusing on front-end development with the ability to be flexible and adapt to various projects. My knowledge in full-stack development paired with my experience in graphic design allows me to build applications that are aesthetically pleasing and functional. I look forward to working with a team that values continual growth and development.</p>
@@ -25,18 +25,22 @@ const IntroSection = () => {
             section.intro{
                     background-color: beige;
                     height: calc(100vh - 7.5rem);
-                    display: flex;
-                    flex-direction: row;
+                    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 0 6.4rem;
+    grid-column-gap: 2.4rem;
                 }
                 div.intro-left-container {
-                    flex: 1;
-                    justify-content: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    grid-column-start: 2;
+    grid-column-end: 8;
                 }
 
                 div.intro-right-container {
-                    flex: 1;
+                    grid-column-start: 8;
+    grid-column-end: 12;
                 }
                 div.intro-images {
                     position: absolute;
@@ -73,6 +77,11 @@ const IntroSection = () => {
     transform: translate(-50%, -50%);
     border-radius: .6rem;
     z-index: 1;
+                }
+                p.headline-body {
+                    font-size: 1.8rem;
+    margin-bottom: 2.4rem;
+    font-family: var(--presicav);
                 }
 
                 `}
