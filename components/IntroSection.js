@@ -21,6 +21,7 @@ const IntroSection = () => {
     </div>
            
             <style jsx>{`
+        
             section.intro{
                     background-color: beige;
                     height: calc(100vh - 7.5rem);
@@ -29,6 +30,9 @@ const IntroSection = () => {
                 }
                 div.intro-left-container {
                     flex: 1;
+                    justify-content: center;
+    display: flex;
+    flex-direction: column;
                 }
 
                 div.intro-right-container {
