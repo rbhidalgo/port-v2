@@ -56,6 +56,16 @@ const Index = () => (
                     position: absolute;
                     z-index: 3;
                 }
+                div.intro-images .mid-img {
+                    position: absolute;
+    z-index: 2;
+    transform: rotate(-10deg);
+                }
+                div.intro-images .btm-img {
+                    position: absolute;
+    z-index: 1;
+    transform: rotate(10deg);
+                }
                 div.intro-img-bkg {
                     width: 18.5rem;
     height: 45.0rem;
