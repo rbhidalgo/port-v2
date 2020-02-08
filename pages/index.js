@@ -15,7 +15,9 @@ const Index = () => (
     </div>
     <div className="intro-right-container">
         <div className="intro-images">
-            <img src="/img/rogelio-photo-bio.jpg"/>
+            <img src="/img/rogelio-photo-bio.jpg" className="top-img"/>
+            <img src="/img/cookie-doggie.jpg" className="mid-img"/>
+            <img src="/img/odie-doggie.jpg" className="btm-img"/>
         </div>
         <div className="intro-img-bkg"></div>
     </div>
@@ -49,6 +51,10 @@ const Index = () => (
     right: 10%;
     transform: translate(-50%, -50%);
     z-index: 2;
+                }
+                div.intro-images .top-img {
+                    position: absolute;
+                    z-index: 3;
                 }
                 div.intro-img-bkg {
                     width: 18.5rem;

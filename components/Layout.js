@@ -41,6 +41,7 @@ font-style: normal;
         }
         img {
           width: 100%;
+          border-radius: 6px;
         }
         div.container {
           width: 100vw;
