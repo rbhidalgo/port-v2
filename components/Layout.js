@@ -43,6 +43,7 @@ const Layout = ({children, title}) => (
           font-family: nimbus-sans-extended, sans-serif;
 font-weight: 400;
 font-style: normal;
+background-color: var(--neutral-light);
           font-size: 1.5rem;
           line-height: 1.5;
           color: #333;

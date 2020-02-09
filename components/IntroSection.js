@@ -23,7 +23,6 @@ const IntroSection = () => {
             <style jsx>{`
         
             section.intro{
-                    background-color: beige;
                     height: calc(100vh - 7.5rem);
                     display: grid;
     grid-template-columns: repeat(12, 1fr);
