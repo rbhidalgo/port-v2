@@ -19,6 +19,15 @@ const Layout = ({children, title}) => (
             --presicav: presicav, sans-serif;
             --nimbus: nimbus-sans-extended, sans-serif;
             --farm-new: farm-new, sans-serif;
+            --primary-dark: #3646EB;
+            --primary-light: #7481FF;
+            --secondary-dark: #36eb80;
+            --secondary-light: #A4EBC2;
+            --highlight: #FEF38B;
+            --neutral-light: #FFFEF5;
+            --neutral-dark: #CECECE;
+          
+
         }
         * {
 	margin: 0;
@@ -39,12 +48,28 @@ font-style: normal;
           color: #333;
           animation: opening 2s ease-in-out;
         }
+        p.headline-body {
+                    font-size: 1.8rem;
+    margin-bottom: 2.4rem;
+    font-family: var(--presicav);
+                }
+
+        h1 {
+          font-family: var(--farm-new);
+          font-size: 7.6rem;
+    -webkit-text-stroke: 4px var(--primary-dark);
+    -webkit-text-fill-color: rgba(255,255,255,0);
+    text-shadow: 4px 3px 0px var(--primary-light);
+    margin-bottom: 2.4rem;
+        }
+
         img {
           width: 100%;
           border-radius: 6px;
         }
         div.container {
           width: 100vw;
+          height: 100vh;
         }
         main {
           width: 100vw;

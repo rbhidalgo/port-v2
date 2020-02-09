@@ -39,7 +39,7 @@
     {
         "id": "4",
         "image": "/img/la-hop-responsive.jpg",
-        "name": "Beer O' Slots V1",
+        "name": "LA-HOP",
         "description1": "MERN Stack, mobile first app",
         "description2": "Worked with a team of UX-UI designers and developers to create a new experience for LA HOP homeless advocates. Created in 2.5 days for GA's first hackathon",
         "tech": ["MongoDB", "Express", "React", "Node.js", "CSS", "Bootstrap"],
