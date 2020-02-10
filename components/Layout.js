@@ -39,6 +39,7 @@ const Layout = ({children, title}) => (
             }
         body {
           margin: 0;
+          overflow-x: hidden;
           font-family: nimbus-sans-extended, sans-serif;
           font-weight: 400;
           font-style: normal;
