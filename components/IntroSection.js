@@ -22,8 +22,8 @@ const IntroSection = () => {
                     height: calc(100vh - 7.5rem);
                 }
                 div.intro-left-container {
-                grid-column: 2/8;
-                align-self: center;
+                    grid-column: 2/8;
+                    align-self: center;
                 }
                 
                 .intro img {
@@ -40,16 +40,19 @@ const IntroSection = () => {
                     transform: rotate(-10deg);
                 }
                  .btm-img {
-                z-index: 1;
-                transform: rotate(10deg);
+                    z-index: 1;
+                    transform: rotate(10deg);
                 }
 
                 .intro-img-bkg {
-                width: 18.5rem;
-                height: 45.0rem;
-                background-color: lightslategray;
-                border-radius: .6rem;
-                z-index: 1;
+                    height: 45.0rem;
+                    background-color:lightslategray;
+                    border-radius: .6rem;
+                    z-index: 0;
+                    align-self: center;
+                    grid-column: 10/12;
+                    grid-row: 1/2;
+                    margin-left: -2.4rem;
                 }
 
                 `}
