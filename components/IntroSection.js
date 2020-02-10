@@ -11,14 +11,14 @@ const IntroSection = () => {
                 <p>focusing on front-end development with the ability to be flexible and adapt to various projects. My knowledge in full-stack development paired with my experience in graphic design allows me to build applications that are aesthetically pleasing and functional. I look forward to working with a team that values continual growth and development.</p>
                 <a href="#">get in touch</a> <a href="#">view my portfolio</a>
             </div>
-            <div className="intro-right-container">
-                <div className="intro-images">
+            
+              
                     <img src="/img/rogelio-photo-bio.jpg" className="top-img" />
                     <img src="/img/cookie-doggie.jpg" className="mid-img" />
                     <img src="/img/odie-doggie.jpg" className="btm-img" />
-                </div>
+                
                 <div className="intro-img-bkg"></div>
-            </div>
+            
 
             <style jsx>{`
         
@@ -30,8 +30,8 @@ const IntroSection = () => {
     grid-column-gap: 2.4rem;
                 }
                 div.intro-left-container {
-    grid-column-start: 2;
-    grid-column-end: 8;
+    grid-column: 2/8;
+    
     align-self: center;
                 }
 
@@ -40,28 +40,20 @@ const IntroSection = () => {
     grid-column-end: 12;
     position: relative;
                 }
-                div.intro-images {
-                    position: absolute;
-    background-color: lightgrey;
-    width: 21rem;
-    border-radius: 0.6rem;
-    height: 31.6rem;
-    top: 50%;
-    right: 10%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-                }
-                div.intro-images .top-img {
-                    position: absolute;
+
+            
+               
+                 .top-img {
+                   
                     z-index: 3;
                 }
-                div.intro-images .mid-img {
-                    position: absolute;
+                 .mid-img {
+                    
     z-index: 2;
     transform: rotate(-10deg);
                 }
-                div.intro-images .btm-img {
-                    position: absolute;
+                 .btm-img {
+                  
     z-index: 1;
     transform: rotate(10deg);
                 }
@@ -69,10 +61,9 @@ const IntroSection = () => {
                     width: 18.5rem;
     height: 45.0rem;
     background-color: lightslategray;
-    top: 50%;
-    right: 5%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+
+
+
     border-radius: .6rem;
     z-index: 1;
                 }
