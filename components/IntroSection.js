@@ -46,7 +46,7 @@ const IntroSection = () => {
 
                 .intro-img-bkg {
                     height: 45.0rem;
-                    background-color:lightslategray;
+                    background-color:var(--highlight);
                     border-radius: .6rem;
                     z-index: 0;
                     align-self: center;

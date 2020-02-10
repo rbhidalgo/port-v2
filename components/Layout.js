@@ -19,6 +19,7 @@ const Layout = ({children, title}) => (
             --presicav: presicav, sans-serif;
             --nimbus: nimbus-sans-extended, sans-serif;
             --farm-new: farm-new, sans-serif;
+            /* colors */
             --primary-dark: #3646EB;
             --primary-light: #7481FF;
             --secondary-dark: #36eb80;
