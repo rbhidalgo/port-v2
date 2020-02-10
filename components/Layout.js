@@ -72,22 +72,22 @@ const Layout = ({children, title}) => (
         }
         main {
           max-width: 1366px;
-margin: 0 auto;
-
+          margin: 0 auto;
         }
         .grid {
           display: grid;
           grid-template-columns: repeat(12, 1fr);
+          margin: 0 6.4rem;
+          grid-column-gap: 2.4rem;
         }
         @keyframes opening {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
-}
-        
+	      from {
+		          opacity: 0;
+	            }
+	      to {
+	        	opacity: 1;
+	        }
+        } 
       `}</style>
     </div>
 )
