@@ -71,7 +71,8 @@ const Layout = ({children, title}) => (
           width: 100vw;
         }
         main {
-          width: 100vw;
+          max-width: 1366px;
+margin: 0 auto;
 
         }
         .grid {

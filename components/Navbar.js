@@ -19,7 +19,7 @@ const Navbar = () => (
 <style jsx>{`
     nav {
         display: flex;
-        width: 90%;
+        max-width: 1366px;
         margin: 0 auto;
         min-height: 7.5rem;
         align-items: center;
