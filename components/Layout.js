@@ -26,8 +26,6 @@ const Layout = ({children, title}) => (
             --highlight: #FEF38B;
             --neutral-light: #FFFEF5;
             --neutral-dark: #CECECE;
-          
-
         }
         * {
 	margin: 0;

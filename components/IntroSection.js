@@ -25,9 +25,14 @@ const IntroSection = () => {
                 grid-column: 2/8;
                 align-self: center;
                 }
-
+                
+                .intro img {
+                    grid-column: 9/11;
+                    grid-row: 1/2;
+                    align-self: center;
+                    max-height: 31.5rem;
+                }
                 .top-img {
-                   
                     z-index: 3;
                 }
                 .mid-img {  
