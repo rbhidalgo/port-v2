@@ -88,6 +88,9 @@ const Layout = ({children, title}) => (
           grid-column-gap: 2.4rem;
           
         }
+        .max-width {
+          max-width: 49rem;
+        }
         @keyframes opening {
 	      from {
 		          opacity: 0;

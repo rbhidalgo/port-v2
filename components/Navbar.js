@@ -39,7 +39,7 @@ const Navbar = () => (
         flex: 1;
         list-style: none;
         display: flex;
-        margin: 0;
+        margin-left: 6.4rem;
     }
     ul li {
         font-size: 1.8rem;
@@ -57,6 +57,7 @@ font-style: normal;
         display: flex;
     flex: 1;
     justify-content: flex-end;
+    margin-right: 6.4rem;
     }
     .nav-right-socials img {
         width: 2.4rem;

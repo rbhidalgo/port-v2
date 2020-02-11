@@ -8,7 +8,7 @@ const IntroSection = () => {
                 <p className="headline-body primary-light">Rogelio Hidalgo, Full Stack</p>
                 <h1>Web Developer</h1>
                 <p className="headline-body primary-dark">with a creative edge</p>
-                <p>focusing on front-end development with the ability to be flexible and adapt to various projects. My knowledge in full-stack development paired with my experience in graphic design allows me to build applications that are aesthetically pleasing and functional. I look forward to working with a team that values continual growth and development.</p>
+                <p className="max-width">focusing on front-end development with the ability to be flexible and adapt to various projects. My knowledge in full-stack development paired with my experience in graphic design allows me to build applications that are aesthetically pleasing and functional. I look forward to working with a team that values continual growth and development.</p>
                 <a href="#">get in touch</a> <a href="#">view my portfolio</a>
             </div>
                 <img src="/img/rogelio-photo-bio.jpg" className="top-img" />
