@@ -45,25 +45,31 @@ const Layout = ({children, title}) => (
           font-style: normal;
           background-color: var(--neutral-light);
           font-size: 1.5rem;
-          line-height: 1.7;
+          line-height: 1.75;
           color: #333;
           animation: opening 2s ease-in-out;
         }
         p.headline-body {
           font-size: 1.8rem;
-          margin-bottom: 2.4rem;
+          margin-bottom: 0.8rem;
           font-family: var(--presicav);
           }
         h1 {
           font-family: var(--farm-new);
-          font-size: 7.6rem;
+          font-size: 7.2rem;
           -webkit-text-stroke: 4px var(--primary-dark);
           -webkit-text-fill-color: rgba(255,255,255,0);
           text-shadow: 4px 3px 0px var(--primary-light);
           line-height: 1;
-          margin-bottom: 2.4rem;
+          margin-bottom: 0.8rem;
         }
 
+        .primary-dark {
+          color: var(--primary-dark)
+        }
+        .primary-light {
+          color: var(--primary-light)
+        }
         img {
           max-width: 100%;
           border-radius: 6px;

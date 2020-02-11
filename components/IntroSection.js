@@ -5,9 +5,9 @@ const IntroSection = () => {
     return (
         <section className="intro grid">
             <div className="intro-left-container">
-                <p className="headline-body">Rogelio Hidalgo, Full Stack</p>
+                <p className="headline-body primary-light">Rogelio Hidalgo, Full Stack</p>
                 <h1>Web Developer</h1>
-                <p>with a creative edge</p>
+                <p className="headline-body primary-dark">with a creative edge</p>
                 <p>focusing on front-end development with the ability to be flexible and adapt to various projects. My knowledge in full-stack development paired with my experience in graphic design allows me to build applications that are aesthetically pleasing and functional. I look forward to working with a team that values continual growth and development.</p>
                 <a href="#">get in touch</a> <a href="#">view my portfolio</a>
             </div>
