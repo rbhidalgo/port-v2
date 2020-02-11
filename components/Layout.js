@@ -45,7 +45,7 @@ const Layout = ({children, title}) => (
           font-style: normal;
           background-color: var(--neutral-light);
           font-size: 1.5rem;
-          line-height: 1.5;
+          line-height: 1.7;
           color: #333;
           animation: opening 2s ease-in-out;
         }
@@ -60,6 +60,7 @@ const Layout = ({children, title}) => (
           -webkit-text-stroke: 4px var(--primary-dark);
           -webkit-text-fill-color: rgba(255,255,255,0);
           text-shadow: 4px 3px 0px var(--primary-light);
+          line-height: 1;
           margin-bottom: 2.4rem;
         }
 
@@ -79,6 +80,7 @@ const Layout = ({children, title}) => (
           grid-template-columns: repeat(12, 1fr);
           margin: 0 6.4rem;
           grid-column-gap: 2.4rem;
+          
         }
         @keyframes opening {
 	      from {
