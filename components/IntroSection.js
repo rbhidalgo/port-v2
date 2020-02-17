@@ -1,17 +1,45 @@
 import Link from 'next/link'
 
-const IntroSection = () => {
+import React, { Component } from 'react'
 
-    return (
-        <section className="intro grid">
+class IntroSection extends Component {
+
+    state = {
+        x: '',
+        y: ''
+    }
+
+    onMouseOver = () => {
+        const x = 25 * (Math.floor(Math.random() * 5)) - 50
+        const y = 25 * (Math.floor(Math.random() * 5)) - 50
+        this.setState({
+            x: `${x}px`,
+            y: `${y}px`
+        })
+        console.log(`x=${this.state.x} y=${this.state.y}`)
+    }
+
+    onMouseOut = () => {
+        this.setState({
+            x: `0px`,
+            y: `0px`
+        })
+        console.log(this.state.x)
+    }
+
+    render() {
+        return (
+            <section className="intro grid">
             <div className="intro-left-container">
                 <p className="headline-body primary-light">Rogelio Hidalgo, Full Stack</p>
                 <h1>Web Developer</h1>
                 <p className="headline-body primary-dark">with a creative edge</p>
-                <p className="max-width">focusing on front-end development with the ability to be flexible and adapt to various projects. My knowledge in full-stack development paired with my experience in graphic design allows me to build applications that are aesthetically pleasing and functional. I look forward to working with a team that values continual growth and development.</p>
+                <p className="max-width primary-light">focusing on front-end development with the ability to be flexible and adapt to various projects. My knowledge in full-stack development paired with my experience in graphic design allows me to build applications that are aesthetically pleasing and functional. I look forward to working with a team that values continual growth and development.</p>
                 <a href="#">get in touch</a> <a href="#">view my portfolio</a>
             </div>
-                <img src="/img/rogelio-photo-bio.jpg" className="top-img" />
+                <img src="/img/rogelio-photo-bio.jpg" className="top-img" onMouseOver={this.onMouseOver} 
+                onMouseOut={this.onMouseOut}
+                style={{transform: `translate(${this.state.x}, ${this.state.y})`}} />
                 <img src="/img/cookie-doggie.jpg" className="mid-img" />
                 <img src="/img/odie-doggie.jpg" className="btm-img" />
                 <div className="intro-img-bkg"></div>
@@ -34,6 +62,7 @@ const IntroSection = () => {
                 }
                 .top-img {
                     z-index: 3;
+                    transition: transform 0.5s ease-in-out;
                 }
                 .mid-img {  
                     z-index: 2;
@@ -58,7 +87,9 @@ const IntroSection = () => {
                 `}
             </style>
         </section>
-    )
+        )
+    }
 }
+
 
 export default IntroSection
