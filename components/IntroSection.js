@@ -64,12 +64,6 @@ class IntroSection extends Component {
                 <div className="intro-img-bkg"><img src="/img/intro-section-ellipse01.svg" className="circle spinning" /></div>
             
             <style jsx>{`
-  @keyframes spin { 
-    100% { 
-      transform: rotateZ(360deg); 
-    }
-  }
-        
             section.intro{
                     height: calc(100vh - 7.5rem);
                 }
@@ -81,8 +75,13 @@ class IntroSection extends Component {
                     z-index: 4;
                     position: absolute;
     left: -47px;
-    animation: spin 10s linear infinite;
+    animation: spin 50s linear infinite;
                 }
+                @keyframes spin { 
+    100% { 
+      transform: rotateZ(360deg); 
+    }
+  }
                 
                 .intro img {
                     grid-column: 9/11;
