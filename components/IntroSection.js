@@ -33,7 +33,9 @@ class IntroSection extends Component {
             x: `0px`,
             y: `0px`,
             x2: '0px',
-            y2: '0px'
+            y2: '0px',
+            rotate: '-10deg',
+            rotate2: '10deg'
         })
         console.log(this.state.x)
     }
@@ -56,7 +58,7 @@ class IntroSection extends Component {
                
                 <img src="/img/odie-doggie.jpg" className="btm-img"
                 
-                style={{transform: `translate(${this.state.x2}, ${this.state.y2})`}} />
+                style={{transform: `rotate(${this.state.rotate2}) translate(${this.state.x2}, ${this.state.y2})`}} />
                 
                 <div className="intro-img-bkg"></div>
             
@@ -82,10 +84,13 @@ class IntroSection extends Component {
                 }
                 .mid-img {  
                     z-index: 2;
+                    transform: rotate(-10deg);
+                    transition: transform 0.5s ease-in-out;
                 }
                  .btm-img {
                     z-index: 1;
                     transform: rotate(10deg);
+                    transition: transform 0.5s ease-in-out;
                 }
 
                 .intro-img-bkg {
