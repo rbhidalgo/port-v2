@@ -9,29 +9,23 @@ class IntroSection extends Component {
         y: '',
         x2: '',
         y2: '',
-        rotate: '-10deg'
+        rotate: '',
+        rotate2: ''
     }
 
     onMouseOver = () => {
         const x = 25 * (Math.floor(Math.random() * 5)) - 50
         const y = 25 * (Math.floor(Math.random() * 5)) - 50
+        const x2 = 25 * (Math.floor(Math.random() * 5)) - 50
+        const y2 = 25 * (Math.floor(Math.random() * 5)) - 50
         this.setState({
             x: `${x}px`,
             y: `${y}px`,
+            x2: `${x2}px`,
+            y2: `${y2}px`,
             rotate: '0deg'
         })
         console.log(`x=${this.state.x} y=${this.state.y}`)
-    }
-
-    onMouseOver2 = () => {
-        const x = 25 * (Math.floor(Math.random() * 5)) - 50
-        const y = 25 * (Math.floor(Math.random() * 5)) - 50
-        this.setState({
-            x2: `${x}px`,
-            y2: `${y}px`,
-            
-        })
-        console.log(`x=${this.state.x2} y=${this.state.y2}`)
     }
 
     onMouseOut = () => {
