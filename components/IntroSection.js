@@ -80,7 +80,10 @@ class IntroSection extends Component {
                 }
                 .top-img {
                     z-index: 3;
-                    transition: transform 0.5s ease-in-out;
+                    transition: all 0.5s ease-in-out;
+                }
+                .top-img:hover{
+                    opacity: 0;
                 }
                 .mid-img {  
                     z-index: 2;
