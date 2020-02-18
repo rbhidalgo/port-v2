@@ -60,9 +60,15 @@ class IntroSection extends Component {
                 
                 style={{transform: `rotate(${this.state.rotate2}) translate(${this.state.x2}, ${this.state.y2})`}} />
                 
-                <div className="intro-img-bkg"></div>
+                
+                <div className="intro-img-bkg"><img src="/img/intro-section-ellipse01.svg" className="circle spinning" /></div>
             
             <style jsx>{`
+  @keyframes spin { 
+    100% { 
+      transform: rotateZ(360deg); 
+    }
+  }
         
             section.intro{
                     height: calc(100vh - 7.5rem);
@@ -70,6 +76,12 @@ class IntroSection extends Component {
                 div.intro-left-container {
                     grid-column: 2/8;
                     align-self: center;
+                }
+                img.circle {
+                    z-index: 4;
+                    position: absolute;
+    left: -47px;
+    animation: spin 10s linear infinite;
                 }
                 
                 .intro img {
@@ -95,7 +107,7 @@ class IntroSection extends Component {
                     transform: rotate(10deg);
                     transition: transform 0.5s ease-in-out;
                 }
-
+                
                 .intro-img-bkg {
                     height: 45.0rem;
                     background-color:var(--highlight);
@@ -105,6 +117,7 @@ class IntroSection extends Component {
                     grid-column: 10/12;
                     grid-row: 1/2;
                     margin-left: -2.4rem;
+                    position: relative;
                 }
 
                 `}
