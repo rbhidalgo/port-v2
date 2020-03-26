@@ -8,7 +8,7 @@ const Project = ({ index, image, name, description1, description2, tech, githubL
 
     // }
     const techItems = tech.map((tech, i) =>
-        <li key={i}>{tech}</li>)
+        <li key={i} style={{margin:"0 12px"}}>{tech}</li>)
 
     return (
         <ul>
@@ -38,6 +38,9 @@ const Project = ({ index, image, name, description1, description2, tech, githubL
                     background-size: cover;
                     background-position: center;
                     background-repeat: no-repeat;
+                }
+                .tech-li {
+                    margin: 0 6px;
                 }
                 li.project-item {
                     display: flex;

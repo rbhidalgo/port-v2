@@ -61,7 +61,10 @@ class IntroSection extends Component {
                 style={{transform: `rotate(${this.state.rotate2}) translate(${this.state.x2}, ${this.state.y2})`}} />
                 
                 
-                <div className="intro-img-bkg"><img src="/img/intro-section-ellipse01.svg" className="circle spinning" /></div>
+                <div className="intro-bkg-container">
+                    <div className="intro-img-bkg"></div>
+                    <img src="/img/intro-section-ellipse01.svg" className="circle spinning" />
+                </div>
             
             <style jsx>{`
             section.intro{
@@ -76,6 +79,7 @@ class IntroSection extends Component {
                     position: absolute;
     left: -47px;
     animation: spin 50s linear infinite;
+    z-index: 0;
                 }
                 @keyframes spin { 
     100% { 
@@ -107,16 +111,25 @@ class IntroSection extends Component {
                     transition: transform 0.5s ease-in-out;
                 }
                 
-                .intro-img-bkg {
+                .intro-bkg-container {
                     height: 45.0rem;
-                    background-color:var(--highlight);
-                    border-radius: .6rem;
                     z-index: 0;
                     align-self: center;
                     grid-column: 10/12;
                     grid-row: 1/2;
                     margin-left: -2.4rem;
                     position: relative;
+                }
+                .intro-img-bkg {
+                    background-color:var(--highlight);
+                    border-radius: .6rem;
+                    height: 45.0rem;
+                    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
                 }
 
                 `}
