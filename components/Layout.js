@@ -27,12 +27,12 @@ const Layout = ({children, title}) => (
             --highlight: #FEF38B;
             --neutral-light: #FFFEF5;
             --neutral-dark: #CECECE;
-        }
-        * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+             }
+                  * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            }
             html{
                 /* 1 rem will equal 10px */
 	              font-size: 62.5%;
@@ -47,7 +47,6 @@ const Layout = ({children, title}) => (
           font-size: 1.5rem;
           line-height: 1.75;
           color: #333;
-          animation: opening 2s ease-in-out;
         }
         p.headline-body {
           font-size: 1.8rem;
@@ -74,7 +73,7 @@ const Layout = ({children, title}) => (
           max-width: 100%;
           border-radius: 6px;
         }
-        div.container {
+        .container {
           width: 100vw;
         }
         main {

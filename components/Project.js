@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { motion } from "framer-motion"
 
 const Project = ({ index, image, name, description1, description2, tech, githubLink, siteLink, responsive }) => {
     // const backgroundImg = {
@@ -8,7 +9,7 @@ const Project = ({ index, image, name, description1, description2, tech, githubL
 
     // }
     const techItems = tech.map((tech, i) =>
-        <li key={i} style={{margin:"0 12px"}}>{tech}</li>)
+        <li key={i} style={{margin:"12px"}}>{tech}</li>)
 
     return (
         <ul>

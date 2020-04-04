@@ -1,6 +1,23 @@
 import Link from 'next/link'
 
 import React, { Component } from 'react'
+import { motion } from "framer-motion"
+
+
+const fadeInUp = {
+    initial: {
+      y: 60,
+      opacity: 0,
+      transition: { duration: 0.6}
+    },
+    animate: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        duration: 0.6
+      }
+    }
+  };
 
 class IntroSection extends Component {
 
@@ -40,52 +57,55 @@ class IntroSection extends Component {
         console.log(this.state.x)
     }
 
+    
+
     render() {
         return (
+            <motion.div initial='initial' animate='animate' whileHover={{ scale: 1.1 }}>
             <section className="intro grid">
-            <div className="intro-left-container">
-                <p className="headline-body primary-light">Rogelio Hidalgo, Full Stack</p>
-                <h1>Web Developer</h1>
-                <p className="headline-body primary-dark">with a creative edge</p>
-                <p className="max-width primary-light">focusing on front-end development with the ability to be flexible and adapt to various projects. My knowledge in full-stack development paired with my experience in graphic design allows me to build applications that are aesthetically pleasing and functional. I look forward to working with a team that values continual growth and development.</p>
-                <a href="#">get in touch</a> <a href="#">view my portfolio</a>
-            </div>
+                <div className="intro-left-container">
+                    <p className="headline-body primary-light">Rogelio Hidalgo, Full Stack</p>
+                    <h1>Web Developer</h1>
+                    <p className="headline-body primary-dark">with a creative edge</p>
+                    <p className="max-width primary-light">focusing on front-end development with the ability to be flexible and adapt to various projects. My knowledge in full-stack development paired with my experience in graphic design allows me to build applications that are aesthetically pleasing and functional. I look forward to working with a team that values continual growth and development.</p>
+                    <a href="#">get in touch</a> <a href="#">view my portfolio</a>
+                </div>
                 <img src="/img/rogelio-photo-bio.jpg" className="top-img" onMouseOver={this.onMouseOver} onMouseOut={this.onMouseOut} />
-               
-                <img src="/img/cookie-doggie.jpg" className="mid-img"  
-                
-                style={{transform: `rotate(${this.state.rotate}) translate(${this.state.x}, ${this.state.y})`}} />
-               
+
+                <img src="/img/cookie-doggie.jpg" className="mid-img"
+
+                    style={{ transform: `rotate(${this.state.rotate}) translate(${this.state.x}, ${this.state.y})` }} />
+
                 <img src="/img/odie-doggie.jpg" className="btm-img"
-                
-                style={{transform: `rotate(${this.state.rotate2}) translate(${this.state.x2}, ${this.state.y2})`}} />
-                
-                
+
+                    style={{ transform: `rotate(${this.state.rotate2}) translate(${this.state.x2}, ${this.state.y2})` }} />
+
+
                 <div className="intro-bkg-container">
                     <div className="intro-img-bkg"></div>
                     <img src="/img/intro-section-ellipse01.svg" className="circle spinning" />
                 </div>
-            
-            <style jsx>{`
-            section.intro{
+                </section>
+                <style jsx>{`
+            .intro{
                     height: calc(100vh - 7.5rem);
                 }
-                div.intro-left-container {
+                .intro-left-container {
                     grid-column: 2/8;
                     align-self: center;
                 }
                 img.circle {
                     z-index: 4;
                     position: absolute;
-    left: -47px;
-    animation: spin 50s linear infinite;
-    z-index: 0;
+                    left: -47px;
+                    animation: spin 50s linear infinite;
+                    z-index: 0;
                 }
                 @keyframes spin { 
-    100% { 
-      transform: rotateZ(360deg); 
-    }
-  }
+                100% { 
+                transform: rotateZ(360deg); 
+                    }   
+                }
                 
                 .intro img {
                     grid-column: 9/11;
@@ -125,16 +145,16 @@ class IntroSection extends Component {
                     border-radius: .6rem;
                     height: 45.0rem;
                     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    z-index: 1;
                 }
 
                 `}
-            </style>
-        </section>
+                </style>
+            </motion.div>
         )
     }
 }

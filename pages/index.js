@@ -1,3 +1,5 @@
+import { motion } from "framer-motion"
+
 import Layout from '../components/Layout'
 import Project from '../components/Project'
 import IntroSection from '../components/IntroSection'
