@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { motion } from "framer-motion"
+import { motion, AnimatePresence } from "framer-motion"
 
 const Project = ({ index, image, name, description1, description2, tech, githubLink, siteLink, responsive }) => {
     // const backgroundImg = {
@@ -32,26 +32,7 @@ const Project = ({ index, image, name, description1, description2, tech, githubL
                 </div>
             </li>
             <style jsx>{`
-                .project-img {
-                    flex: 1;
-                    width: 50%;
-                    height: 400px;
-                    background-size: cover;
-                    background-position: center;
-                    background-repeat: no-repeat;
-                }
-                .tech-li {
-                    margin: 0 6px;
-                }
-                li.project-item {
-                    display: flex;
-                }
-                .project-tech-tags {
-                    display: flex;
-                }
-                .project-content {
-                    flex: 1;
-                }
+               
                 `}
             </style>
         </ul>

@@ -1,23 +1,7 @@
-import Link from 'next/link'
-
 import React, { Component } from 'react'
 import { motion } from "framer-motion"
 
-
-const fadeInUp = {
-    initial: {
-      y: 60,
-      opacity: 0,
-      transition: { duration: 0.6}
-    },
-    animate: {
-      y: 0,
-      opacity: 1,
-      transition: {
-        duration: 0.6
-      }
-    }
-  };
+// import Link from 'next/link'
 
 class IntroSection extends Component {
 
@@ -61,16 +45,23 @@ class IntroSection extends Component {
 
     render() {
         return (
-            <motion.div initial='initial' animate='animate' whileHover={{ scale: 1.1 }}>
             <section className="intro grid">
                 <div className="intro-left-container">
-                    <p className="headline-body primary-light">Rogelio Hidalgo, Full Stack</p>
+                    <motion.p className="headline-body primary-light"  animate={{ opacity: 1 }}
+                    transition={{ delay: 0.2 }}
+        initial={{ opacity: 0 }}>Rogelio Hidalgo, Full Stack</motion.p>
                     <h1>Web Developer</h1>
-                    <p className="headline-body primary-dark">with a creative edge</p>
+                    <motion.p initial='initial' animate='animate' whileHover={{ scale: 1.1 }} className="headline-body primary-dark">with a creative edge</motion.p>
                     <p className="max-width primary-light">focusing on front-end development with the ability to be flexible and adapt to various projects. My knowledge in full-stack development paired with my experience in graphic design allows me to build applications that are aesthetically pleasing and functional. I look forward to working with a team that values continual growth and development.</p>
-                    <a href="#">get in touch</a> <a href="#">view my portfolio</a>
+                    <a href="#" className="primary-btn mt-48">get in touch</a> <a href="#" className="primary-btn mt-48">view my portfolio</a>
                 </div>
-                <img src="/img/rogelio-photo-bio.jpg" className="top-img" onMouseOver={this.onMouseOver} onMouseOut={this.onMouseOut} />
+                <motion.img src="/img/rogelio-photo-bio.jpg" className="top-img" onMouseOver={this.onMouseOver} onMouseOut={this.onMouseOut} 
+                initial={{ x: 60, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                whileHover={{ x: 85, zIndex: 1 }}
+                transition={{ delay: 0.2 }}/
+                
+                >
 
                 <img src="/img/cookie-doggie.jpg" className="mid-img"
 
@@ -85,76 +76,7 @@ class IntroSection extends Component {
                     <div className="intro-img-bkg"></div>
                     <img src="/img/intro-section-ellipse01.svg" className="circle spinning" />
                 </div>
-                </section>
-                <style jsx>{`
-            .intro{
-                    height: calc(100vh - 7.5rem);
-                }
-                .intro-left-container {
-                    grid-column: 2/8;
-                    align-self: center;
-                }
-                img.circle {
-                    z-index: 4;
-                    position: absolute;
-                    left: -47px;
-                    animation: spin 50s linear infinite;
-                    z-index: 0;
-                }
-                @keyframes spin { 
-                100% { 
-                transform: rotateZ(360deg); 
-                    }   
-                }
-                
-                .intro img {
-                    grid-column: 9/11;
-                    grid-row: 1/2;
-                    align-self: center;
-                    max-height: 31.5rem;
-                }
-                .top-img {
-                    z-index: 3;
-                    transition: all 0.5s ease-in-out;
-                }
-                .top-img:hover{
-                    opacity: 0;
-                }
-                .mid-img {  
-                    z-index: 2;
-                    transform: rotate(-10deg);
-                    transition: transform 0.5s ease-in-out;
-                }
-                 .btm-img {
-                    z-index: 1;
-                    transform: rotate(10deg);
-                    transition: transform 0.5s ease-in-out;
-                }
-                
-                .intro-bkg-container {
-                    height: 45.0rem;
-                    z-index: 0;
-                    align-self: center;
-                    grid-column: 10/12;
-                    grid-row: 1/2;
-                    margin-left: -2.4rem;
-                    position: relative;
-                }
-                .intro-img-bkg {
-                    background-color:var(--highlight);
-                    border-radius: .6rem;
-                    height: 45.0rem;
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    bottom: 0;
-                    z-index: 1;
-                }
-
-                `}
-                </style>
-            </motion.div>
+            </section>
         )
     }
 }

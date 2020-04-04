@@ -7,6 +7,8 @@ import projects from './projects.json'
 
 
 const Index = () => (
+    <motion.div initial='initial' animate='animate' exit={{ opacity: 0 }}>
+
     <Layout title="Full Stack Web Developer | Rogelio Hidalgo | Los Angeles, CA">
    <IntroSection />
     <section className="projects-container">
@@ -14,11 +16,10 @@ const Index = () => (
     return <Project key={index} {...project} />
         })}
     </section>
-        <style jsx>{`               
-            
-
-            `}</style>
-    </Layout>)
+    </Layout>
+    </motion.div>
+    
+    )
 
 
 export default Index
