@@ -62,11 +62,11 @@ class IntroSection extends Component {
                 whileHover={{ opacity: 0, x: 85, zIndex: 1, delay: 0 }}
                 transition={{ delay: 0.2 }}/
                 >
-                 <img src="/img/intro-section-rect1.svg" className="rectangle spinning" height="64" width="64" />
+                 <img src="/img/intro-section-rect1.svg" className="rectangle" height="64" width="64" />
 
-                 <img src="/img/intro-section-poly02.svg" className="intro-top-poly spinning" height="62" width="72" />
+                 <img src="/img/intro-section-poly02.svg" className="intro-top-poly" height="62" width="72" />
 
-                 <img src="/img/intro-section-poly01.svg" className="intro-btm-poly spinning" height="62" width="72" />
+                 <img src="/img/intro-section-poly01.svg" className="intro-btm-poly" height="62" width="72" />
 
                 <img src="/img/cookie-doggie.jpg" className="mid-img"
 
@@ -78,6 +78,9 @@ class IntroSection extends Component {
 
 
                 <div className="intro-bkg-container">
+                <img src="/img/intro-section-uparrow.svg" className="intro-up-arrow" height="36" width="48" />
+                <img src="/img/intro-section-uparrow.svg" className="intro-up-arrow" height="36" width="48" />
+                <img src="/img/intro-section-uparrow.svg" className="intro-up-arrow" height="36" width="48" />
                     <div className="intro-img-bkg"></div>
                     <img src="/img/intro-section-ellipse01.svg" className="circle spinning" height="81" width="81" />
                    

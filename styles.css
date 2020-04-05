@@ -178,21 +178,36 @@ img.rectangle{
   left: 162px;
   top: 136px;
   transform: rotateZ(270deg);
-  z-index: 10;
+  z-index: 3;
 }
 
 img.intro-top-poly{
   position: relative;
   left: 162px;
   top: -154px;
-  z-index: 10;
+  z-index: 3;
 }
 
 img.intro-btm-poly{
   position: relative;
   left: -34px;
   bottom: -124px;
-  z-index: 10;
+  z-index: 3;
+}
+
+img.intro-up-arrow{
+  position: absolute;
+  bottom: 0;
+  left: -102px;
+  z-index: 5;
+}
+
+img.intro-up-arrow:nth-child(2){
+  left: -72px;
+}
+
+img.intro-up-arrow:nth-child(3){
+  left: -42px;
 }
 
 
