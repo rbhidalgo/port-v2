@@ -2,6 +2,7 @@ import { motion } from "framer-motion"
 
 import Layout from '../components/Layout'
 import Project from '../components/Project'
+import Skills from '../components/Skills'
 import IntroSection from '../components/IntroSection'
 import projects from './projects.json'
 
@@ -11,6 +12,7 @@ const Index = () => (
 
     <Layout title="Full Stack Web Developer | Rogelio Hidalgo | Los Angeles, CA">
    <IntroSection />
+   <Skills />
     <section className="projects-container">
     {projects.map((project, index) => {
     return <Project key={index} {...project} />

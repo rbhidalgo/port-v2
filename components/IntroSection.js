@@ -45,6 +45,7 @@ class IntroSection extends Component {
 
     render() {
         return (
+            <div className="wrapper">
             <section className="intro grid">
                 <div className="intro-left-container">
                     <motion.p className="headline-body primary-light"  animate={{ opacity: 1 }}
@@ -87,6 +88,7 @@ class IntroSection extends Component {
                     <img src="/img/intro-section-ellipse01.svg" className="big-circle spinning" height="111" width="111" />
                 </div>
             </section>
+            </div>
         )
     }
 }

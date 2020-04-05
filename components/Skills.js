@@ -29,14 +29,15 @@ const Skills = () => {
       "Indesign"
       ]
 
-      const skillItem = skills.map((skill, i ) => {
+      const skillItem = skills.map((skill, i ) => 
         <li key={i}>
             {skill}
         </li>
-      })
+      )
 
     return (
        <section className="section-skills grid">
+         <div className="wrapper">
          <div className="skills-text-heading">
             <h1>Skills</h1>
          </div>
@@ -46,7 +47,7 @@ const Skills = () => {
             {skillItem}
           </ul>
         </div>
-
+        </div>
        </section>
     )
 }

@@ -10,9 +10,9 @@ const Layout = ({children, title}) => (
 <link rel="stylesheet" href="https://use.typekit.net/juf8edt.css"></link>
         </Head>
         <Navbar />
-        <main>
+        <>
         {children}
-        </main>
+        </>
         <Footer />
         <style jsx global>{`
 
