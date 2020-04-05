@@ -14,9 +14,14 @@ const Index = () => (
    <IntroSection />
    <Skills />
     <section className="projects-container">
+    <div className="wrapper">
+
+    <h1>Portfolio</h1>
+
     {projects.map((project, index) => {
     return <Project key={index} {...project} />
         })}
+        </div>
     </section>
     </Layout>
     </motion.div>

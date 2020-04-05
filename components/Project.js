@@ -31,10 +31,6 @@ const Project = ({ index, image, name, description1, description2, tech, githubL
                     {responsive ? <p>responsive</p> : <p>not responsive</p>}
                 </div>
             </li>
-            <style jsx>{`
-               
-                `}
-            </style>
         </ul>
     )
 }
