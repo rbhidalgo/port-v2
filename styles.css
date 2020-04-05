@@ -294,6 +294,22 @@ li.project-item {
   background-color: var(--primary-dark);
   width: 100vw;
   margin: 0 auto;
+  position: relative;
+}
+.skills-circle-right,
+.skills-circle-left {
+  position: absolute;
+  animation: spin 50s linear infinite;
+}
+
+.skills-circle-left {
+  top: 120px;
+  left: 6px;
+}
+
+.skills-circle-right {
+  bottom: 12px;
+  right: -106px;
 }
 
 .section-skills ul {
