@@ -173,7 +173,13 @@ img.big-circle {
   z-index: 0;
 }
 
-
+img.rectangle{
+  position: relative;
+  left: 162px;
+  top: 136px;
+  transform: rotateZ(270deg);
+  z-index: 10;
+}
 
 
 
