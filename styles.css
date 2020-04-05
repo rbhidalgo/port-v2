@@ -132,6 +132,12 @@ a.primary-btn:nth-child(odd){
   margin-right: 24px;
 }
 
+span.down-arrow {
+  position: relative;
+  top: 16px;
+  padding: 0 0 0 6px;
+}
+
 /*  Animations  */
 @keyframes opening {
 from {
@@ -152,12 +158,25 @@ to {
   align-self: center;
 }
 img.circle {
-  z-index: 4;
   position: absolute;
-  left: -47px;
+  left: -36px;
+  top: -18px;
   animation: spin 50s linear infinite;
   z-index: 0;
 }
+
+img.big-circle {
+  position: absolute;
+  right: -36px;
+  bottom: -36px;
+  animation: spin 50s linear infinite;
+  z-index: 0;
+}
+
+
+
+
+
 @keyframes spin { 
 100% { 
 transform: rotateZ(360deg); 

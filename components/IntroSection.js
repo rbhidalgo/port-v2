@@ -54,6 +54,7 @@ class IntroSection extends Component {
                     <p className="headline-body primary-dark">with a creative edge and a eye for UI/UX</p>
                     <p className="max-width primary-light">focusing on front-end development with the ability to be flexible and adapt to various projects. My knowledge in full-stack development paired with my experience in graphic design allows me to build applications that are aesthetically pleasing and functional. I look forward to working with a team that values continual growth and development.</p>
                     <a href="#" className="primary-btn mt-48">get in touch</a> <a href="#" className="primary-btn mt-48">view my portfolio</a>
+                    <span className="down-arrow"><img src="/img/intro-section-downarrow.svg" alt="down arrow" height="20" width="22"/></span>
                 </div>
                 <motion.img src="/img/rogelio-photo-bio.jpg" className="top-img" onMouseOver={this.onMouseOver} onMouseOut={this.onMouseOut} 
                 initial={{ x: 60, opacity: 0 }}
@@ -73,7 +74,9 @@ class IntroSection extends Component {
 
                 <div className="intro-bkg-container">
                     <div className="intro-img-bkg"></div>
-                    <img src="/img/intro-section-ellipse01.svg" className="circle spinning" />
+                    <img src="/img/intro-section-ellipse01.svg" className="circle spinning" height="81" width="81" />
+                    
+                    <img src="/img/intro-section-ellipse01.svg" className="big-circle spinning" height="111" width="111" />
                 </div>
             </section>
         )
