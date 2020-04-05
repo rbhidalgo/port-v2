@@ -20,7 +20,6 @@ const Skills = () => {
       "Bootstrap",
       "tachyons",
       "Wordpress",
-      "WooCommerce",
       "Adobe Creative Cloud Suite",
       "Adobe XD",
       "Dreamweaver",
@@ -36,10 +35,10 @@ const Skills = () => {
       )
 
     return (
-       <section className="section-skills grid">
+       <section className="section-skills">
          <img src="/img/skills-circle-left.svg" className="skills-circle-left spinning" height="120" width="120" />
          <img src="/img/skills-circle-right.svg" className="skills-circle-right spinning" height="350" width="350" />
-         <div className="wrapper">
+         <div className="wrapper grid">
          <div className="skills-text-heading">
             <h1>Skills</h1>
          </div>

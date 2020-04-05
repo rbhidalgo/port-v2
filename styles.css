@@ -312,6 +312,20 @@ li.project-item {
   right: -106px;
 }
 
+.skills-text-heading {
+  grid-column: 2/4;
+  grid-row: 1/2;
+  align-self: center;
+}
+
+.skills-text-list{
+  grid-column: 5/11;
+  grid-row: 1/2;
+}
+
 .section-skills ul {
+  color: var(--neutral-light);
+  list-style-type: none;
+  line-height: 2;
   column-count: 3;
 }
