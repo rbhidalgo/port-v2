@@ -112,11 +112,20 @@ max-width: 49rem;
 }
 
 a.primary-btn {
+  max-height: 3rem;
   display: inline-block;
   text-decoration: none;
   color: var(--secondary-dark);
-  padding-bottom: 6px;
-  border-bottom: 1.5px solid var(--secondary-dark);
+  padding-bottom: 3px;
+  border-bottom: 2px solid var(--secondary-dark);
+  transition: all .2s ease-in-out;
+
+}
+
+a.primary-btn:hover {
+  padding-bottom: 0px;
+  color: var(--secondary-light);
+  border-bottom: 2px solid var(--secondary-light);
 }
 
 a.primary-btn:nth-child(odd){

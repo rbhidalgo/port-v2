@@ -51,16 +51,15 @@ class IntroSection extends Component {
                     transition={{ delay: 0.2 }}
         initial={{ opacity: 0 }}>Rogelio Hidalgo, Full Stack</motion.p>
                     <h1>Web Developer</h1>
-                    <motion.p initial='initial' animate='animate' whileHover={{ scale: 1.1 }} className="headline-body primary-dark">with a creative edge</motion.p>
+                    <p className="headline-body primary-dark">with a creative edge and a eye for UI/UX</p>
                     <p className="max-width primary-light">focusing on front-end development with the ability to be flexible and adapt to various projects. My knowledge in full-stack development paired with my experience in graphic design allows me to build applications that are aesthetically pleasing and functional. I look forward to working with a team that values continual growth and development.</p>
                     <a href="#" className="primary-btn mt-48">get in touch</a> <a href="#" className="primary-btn mt-48">view my portfolio</a>
                 </div>
                 <motion.img src="/img/rogelio-photo-bio.jpg" className="top-img" onMouseOver={this.onMouseOver} onMouseOut={this.onMouseOut} 
                 initial={{ x: 60, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
-                whileHover={{ x: 85, zIndex: 1 }}
+                whileHover={{ opacity: 0, x: 85, zIndex: 1, delay: 0 }}
                 transition={{ delay: 0.2 }}/
-                
                 >
 
                 <img src="/img/cookie-doggie.jpg" className="mid-img"
