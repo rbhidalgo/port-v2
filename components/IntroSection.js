@@ -64,9 +64,9 @@ class IntroSection extends Component {
                 >
                  <img src="/img/intro-section-rect1.svg" className="rectangle spinning" height="64" width="64" />
 
-                 <img src="/img/intro-section-poly02.svg" className="rectangle spinning" height="53" width="61" />
+                 <img src="/img/intro-section-poly02.svg" className="intro-top-poly spinning" height="62" width="72" />
 
-                 <img src="/img/intro-section-poly01.svg" className="rectangle spinning" height="53" width="61" />
+                 <img src="/img/intro-section-poly01.svg" className="intro-btm-poly spinning" height="62" width="72" />
 
                 <img src="/img/cookie-doggie.jpg" className="mid-img"
 
