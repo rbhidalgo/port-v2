@@ -308,6 +308,11 @@ li.project-item {
   top: 120px;
   left: 6px;
 }
+.skills-rect-left {
+  position: absolute;
+  top: 154px;
+  left: -62px
+}
 
 .skills-polygon-right{
   position: absolute;
@@ -351,6 +356,10 @@ div.skills-text-list{
   list-style-type: none;
   line-height: 2;
   column-count: 3;
+}
+
+.section-skills ul li {
+max-width: 40ch;
 }
 
 span.right-arrow{

@@ -36,7 +36,8 @@ const Skills = () => {
 
     return (
        <section className="section-skills">
-         <img src="/img/skills-circle-left.svg" className="skills-circle-left spinning" height="120" width="120" />
+         <img src="/img/skills-rectangle.svg" className="skills-rect-left" height="144" width="144" />
+         <img src="/img/skills-circle-left.svg" className="skills-circle-left spinning" height="110" width="110" />
          <img src="/img/skills-polygon.svg" className="skills-polygon-right" height="134" width="154" />
          <img src="/img/skills-circle-right.svg" className="skills-circle-right spinning" height="325" width="325" />
          <div className="wrapper grid">
