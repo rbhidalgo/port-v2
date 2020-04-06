@@ -309,7 +309,11 @@ li.project-item {
   left: 6px;
 }
 
-
+.skills-polygon-right{
+  position: absolute;
+  top: 110px;
+  right: 100px;
+}
 
 .skills-circle-right {
   bottom: 12px;
