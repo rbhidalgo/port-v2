@@ -115,6 +115,8 @@ max-width: 49rem;
 }
 
 a.primary-btn {
+  text-transform: uppercase;
+  font-family: var(--presicav);
   max-height: 3rem;
   display: inline-block;
   text-decoration: none;
