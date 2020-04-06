@@ -20,7 +20,7 @@ const Skills = () => {
       "Bootstrap",
       "tachyons",
       "Wordpress",
-      "Adobe Creative Cloud Suite",
+      "Adobe Creative - Cloud Suite",
       "Adobe XD",
       "Dreamweaver",
       "Photoshop",

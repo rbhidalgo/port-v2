@@ -353,6 +353,7 @@ div.skills-text-list{
 }
 
 .section-skills ul {
+  text-transform: uppercase;
   color: var(--neutral-light);
   list-style-type: none;
   line-height: 2;
@@ -360,7 +361,7 @@ div.skills-text-list{
 }
 
 .section-skills ul li {
-max-width: 15ch;
+max-width: 16ch;
 }
 
 span.right-arrow{
