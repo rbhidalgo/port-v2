@@ -297,9 +297,7 @@ li.project-item {
   height: 43.5rem;
   background-color: var(--primary-dark);
   width: 100vw;
-  margin: 0 auto;
   position: relative;
-  margin-bottom: 24rem;
 }
 .skills-circle-right,
 .skills-circle-left {
