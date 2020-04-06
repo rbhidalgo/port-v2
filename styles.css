@@ -100,6 +100,7 @@ width: 100vw;
 div.wrapper {
 max-width: 1366px;
 margin: 0 auto;
+height: 100%;
 }
 .grid {
 display: grid;
@@ -295,6 +296,7 @@ li.project-item {
   width: 100vw;
   margin: 0 auto;
   position: relative;
+  margin-bottom: 12rem;
 }
 .skills-circle-right,
 .skills-circle-left {
@@ -307,20 +309,37 @@ li.project-item {
   left: 6px;
 }
 
+
+
 .skills-circle-right {
   bottom: 12px;
   right: -106px;
 }
 
-.skills-text-heading {
+div.skills-text-heading {
+  position: relative;
+  height: 100%;
   grid-column: 2/4;
   grid-row: 1/2;
   align-self: center;
+  background-color: var(--neutral-light);
 }
 
-.skills-text-list{
+.inner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-transform: uppercase;
+}
+
+.rotate-text {
+  transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+}
+
+div.skills-text-list{
   grid-column: 5/11;
   grid-row: 1/2;
+  align-self: center;
 }
 
 .section-skills ul {
@@ -328,4 +347,10 @@ li.project-item {
   list-style-type: none;
   line-height: 2;
   column-count: 3;
+}
+
+span.right-arrow{
+  position: absolute;
+  top: 30px;
+  right: -36px;
 }
