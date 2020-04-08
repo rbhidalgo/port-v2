@@ -43,7 +43,7 @@ const Skills = () => {
          <div className="wrapper grid">
          <div className="skills-text-heading">
            <div className="inner-text rotate-text">
-            <h1>Skills</h1>
+            <h1 className="tt-uc">Skills</h1>
             <span className="right-arrow"><img src="/img/intro-section-downarrow.svg" alt="right arrow" height="22" width="24"/></span>
             </div>
          </div>
