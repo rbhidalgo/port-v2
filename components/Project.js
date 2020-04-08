@@ -12,7 +12,6 @@ const Project = ({ index, image, name, description1, description2, tech, githubL
         <li key={i} style={{margin:"12px"}}>{tech}</li>)
 
     return (
-        <ul>
             <li className="project-item" key={index}>
                 <div className="project-img" style={{ backgroundImage: `url("${image}")` }}></div>
                 {/* <img src={props.image} alt="`screenshot of project ${props.name}`" /> */}
@@ -31,7 +30,6 @@ const Project = ({ index, image, name, description1, description2, tech, githubL
                     {responsive ? <p>responsive</p> : <p>not responsive</p>}
                 </div>
             </li>
-        </ul>
     )
 }
 

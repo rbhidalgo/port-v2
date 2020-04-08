@@ -13,15 +13,15 @@ const Index = () => (
     <Layout title="Full Stack Web Developer | Rogelio Hidalgo | Los Angeles, CA">
    <IntroSection />
    <Skills />
-    <section className="projects-container">
-    <div className="wrapper">
-
-    <h1>Portfolio</h1>
-
+    <section className="projects-container wrapper">
+    <div className="section-title grid">
+    <h1 className="tt-uc">Portfolio</h1>
+    </div>
+        <ul className="grid">
     {projects.map((project, index) => {
     return <Project key={index} {...project} />
         })}
-        </div>
+        </ul>
     </section>
     </Layout>
     </motion.div>
