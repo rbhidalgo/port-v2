@@ -6,6 +6,8 @@ import Skills from '../components/Skills'
 import IntroSection from '../components/IntroSection'
 import projects from './projects.json'
 
+import Arrow from '../public/img/intro-section-downarrow.svg'
+
 
 const Index = () => (
     <motion.div initial='initial' animate='animate' exit={{ opacity: 0 }}>
@@ -16,6 +18,7 @@ const Index = () => (
     <section className="projects-container wrapper">
     <div className="section-title grid">
     <h1 className="tt-uc">Portfolio</h1>
+    <Arrow />
     </div>
         <ul className="grid">
     {projects.map((project, index) => {
