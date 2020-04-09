@@ -147,6 +147,13 @@ span.down-arrow {
 	padding: 0 0 0 6px;
 }
 
+span.down-arrow-center {
+	position: relative;
+	top: 28px;
+	left: 14px;
+	padding: 0 0 0 6px;
+}
+
 /*  Animations  */
 @keyframes opening {
 	from {
