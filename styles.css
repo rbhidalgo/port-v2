@@ -42,7 +42,7 @@ h1 {
 	font-size: 7.2rem;
 	-webkit-text-stroke: 4px var(--primary-dark);
 	-webkit-text-fill-color: rgba(255, 255, 255, 0);
-	text-shadow: 4px 3px 0px var(--primary-light);
+	text-shadow: 4px 3px 0px #bcc3ff;
 	line-height: 1;
 	margin-bottom: 0.8rem;
 }
@@ -150,7 +150,7 @@ span.down-arrow {
 span.down-arrow-center {
 	position: relative;
 	top: 28px;
-	left: 14px;
+	left: -12px;
 	padding: 0 0 0 6px;
 }
 
@@ -294,6 +294,7 @@ img.intro-up-arrow:nth-child(3) {
 li.project-item {
 	display: flex;
 }
+
 .project-tech-tags {
 	display: flex;
 }
@@ -384,6 +385,7 @@ span.right-arrow {
 .section-title h1 {
 	margin-bottom: 12rem;
 	grid-column: 2/6;
+	margin-left: -2.4rem;
 }
 
 svg path.d {
