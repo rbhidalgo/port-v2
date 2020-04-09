@@ -289,11 +289,23 @@ img.intro-up-arrow:nth-child(3) {
 	background-repeat: no-repeat;
 }
 
-.tech-li {
-	margin: 0 6px;
-}
 li.project-item {
 	display: flex;
+	flex-wrap: wrap;
+}
+
+.project-item-left {
+	flex-wrap: wrap;
+	flex: 1 2 40%;
+}
+
+.project-item-right {
+	flex-wrap: wrap;
+	flex: 3 1 60%;
+}
+
+.tech-li {
+	margin: 0 6px;
 }
 
 li.project-item:nth-child(odd) {
@@ -307,13 +319,7 @@ li.project-item:nth-child(even) {
 
 .project-tech-tags {
 	display: flex;
-}
-.project-item-left {
-	flex: 1;
-}
-
-.project-item-right {
-	flex: 2;
+	flex-wrap: wrap;
 }
 
 /* Skills Component */
