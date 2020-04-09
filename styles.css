@@ -288,6 +288,7 @@ img.intro-up-arrow:nth-child(3) {
 	background-position: center;
 	background-repeat: no-repeat;
 }
+
 .tech-li {
 	margin: 0 6px;
 }
@@ -307,8 +308,12 @@ li.project-item:nth-child(even) {
 .project-tech-tags {
 	display: flex;
 }
-.project-content {
+.project-item-left {
 	flex: 1;
+}
+
+.project-item-right {
+	flex: 2;
 }
 
 /* Skills Component */
