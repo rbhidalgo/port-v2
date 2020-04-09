@@ -124,16 +124,16 @@ a.primary-btn {
 	max-height: 3rem;
 	display: inline-block;
 	text-decoration: none;
-	color: var(--secondary-light);
+	color: var(--secondary-dark);
 	padding-bottom: 3px;
-	border-bottom: 2px solid var(--secondary-light);
+	border-bottom: 2px solid var(--secondary-dark);
 	transition: all 0.2s ease-in-out;
 }
 
 a.primary-btn:hover {
 	padding-bottom: 0px;
-	color: var(--secondary-dark);
-	border-bottom: 2px solid var(--secondary-dark);
+	color: var(--secondary-light);
+	border-bottom: 2px solid var(--secondary-light);
 	transform: scale(1.02);
 }
 
