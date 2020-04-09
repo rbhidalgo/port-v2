@@ -36,6 +36,14 @@ const Skills = ({ scale }) => {
 				src='/img/skills-rectangle.svg'
 				className='skills-rect-left'
 				style={{ scale }}
+				initial={{ rotateY: 0 }}
+				animate={{ rotateY: 360 }}
+				transition={{
+					ease: 'easeInOut',
+					duration: 2,
+					flip: Infinity,
+					repeatDelay: 2.2,
+				}}
 				height='144'
 				width='144'
 			/>
@@ -56,6 +64,14 @@ const Skills = ({ scale }) => {
 				src='/img/skills-polygon.svg'
 				className='skills-polygon-right'
 				style={{ scale }}
+				initial={{ rotateY: 0 }}
+				animate={{ rotateY: 360 }}
+				transition={{
+					ease: 'easeInOut',
+					duration: 2,
+					flip: Infinity,
+					repeatDelay: 2.5,
+				}}
 				height='134'
 				width='154'
 			/>

@@ -95,7 +95,7 @@ class IntroSection extends Component {
 						initial={{ x: 60, opacity: 0 }}
 						animate={{ x: 0, opacity: 1 }}
 						whileHover={{ opacity: 0, x: 85, zIndex: 1, delay: 0 }}
-						transition={{ delay: 0.2 }}
+						transition={{ delay: 0.1 }}
 					/>
 					<motion.img
 						src='/img/intro-section-rect1.svg'
