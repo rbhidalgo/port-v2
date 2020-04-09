@@ -48,13 +48,20 @@ class IntroSection extends Component {
             <div className="wrapper">
             <section className="intro grid">
                 <div className="intro-left-container">
-                    <motion.p className="headline-body primary-light"  animate={{ opacity: 1 }}
+                    <motion.p className="headline-body primary-light"  
+                    animate={{ opacity: 1 }}
                     transition={{ delay: 0.2 }}
-        initial={{ opacity: 0 }}>Rogelio Hidalgo, Full Stack</motion.p>
+                    initial={{ opacity: 0 }}
+                    >Rogelio Hidalgo, Full Stack
+                    </motion.p>
                     <h1>Web Developer</h1>
                     <p className="headline-body primary-dark">with a creative edge and a eye for UI/UX</p>
                     <p className="max-width primary-light">focusing on front-end development with the ability to be flexible and adapt to various projects. My knowledge in full-stack development paired with my experience in graphic design allows me to build applications that are aesthetically pleasing and functional. I look forward to working with a team that values continual growth and development.</p>
-                    <a href="#" className="primary-btn mt-48">get in touch</a> <a href="#" className="primary-btn mt-48">view my portfolio</a>
+                    
+                    <motion.a
+                    whileTap={{ scale: 0.8 }}
+                    href="#" className="primary-btn mt-48">get in touch</motion.a>
+                    <a href="#" className="primary-btn mt-48">view my portfolio</a>
                     <span className="down-arrow"><img src="/img/intro-section-downarrow.svg" alt="down arrow" height="20" width="22"/></span>
                 </div>
                 <motion.img src="/img/rogelio-photo-bio.jpg" className="top-img" onMouseOver={this.onMouseOver} onMouseOut={this.onMouseOut} 

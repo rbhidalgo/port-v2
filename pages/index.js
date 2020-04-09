@@ -9,23 +9,24 @@ import projects from './projects.json'
 import Arrow from '../public/img/intro-section-downarrow.svg'
 
 
-
-
 const Index = () => {
 
     const icon = {
         hidden: {
           pathLength: 0,
+          rotateZ: 0,
           fill: "rgba(255, 255, 255, 0)"
         },
         visible: {
           pathLength: 1,
+          rotateZ: 360,
           fill: "rgba(255, 255, 255, 1)"
         }
       }
     
       const { scrollYProgress } = useViewportScroll()
-      const scale = useTransform(scrollYProgress, [0, 1], [0.2, 1.2]);
+      const scale = useTransform(
+          scrollYProgress, [0, 1], [0.2, 1.2]);
 
     return(
     <motion.div initial='initial' animate='animate' exit={{ opacity: 0 }}>
@@ -50,6 +51,13 @@ const Index = () => {
       animate="visible"
       />
     </motion.svg>
+
+    <svg width={81} height={81} viewBox="0 0 81 81">
+      <g fill="none" stroke="#a4ebc2" strokeWidth={2} strokeDasharray={25}>
+        <circle cx={40.5} cy={40.5} r={40.5} stroke="none" />
+        <circle cx={40.5} cy={40.5} r={39.5} />
+      </g>
+    </svg>
 
     </div>
         <ul className="grid">

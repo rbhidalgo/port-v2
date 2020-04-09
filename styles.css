@@ -136,6 +136,7 @@ a.primary-btn:hover {
   padding-bottom: 0px;
   color: var(--secondary-dark);
   border-bottom: 2px solid var(--secondary-dark);
+  transform: scale(1.02);
 }
 
 a.primary-btn:nth-child(odd){
