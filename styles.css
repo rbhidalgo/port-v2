@@ -295,6 +295,15 @@ li.project-item {
 	display: flex;
 }
 
+li.project-item:nth-child(odd) {
+	grid-column: 2/7;
+	margin-left: -24px;
+}
+
+li.project-item:nth-child(even) {
+	grid-column: 7/13;
+}
+
 .project-tech-tags {
 	display: flex;
 }
