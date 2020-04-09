@@ -38,7 +38,7 @@ const Project = ({
 				</a>
 			</div>
 			<div className='project-item-right'>
-				<h2>{name}</h2>
+				<h5>{name}</h5>
 				<ul className='project-tech-tags'>{techItems}</ul>
 				<img src={image} alt='`screenshot of project ${props.name}`' />
 				{responsive ? <p>responsive</p> : <p>not responsive</p>}

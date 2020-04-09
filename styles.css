@@ -46,6 +46,14 @@ h1 {
 	line-height: 1;
 	margin-bottom: 0.8rem;
 }
+
+h5 {
+	font-family: var(--farm-new);
+	font-size: 2.4rem;
+	color: var(--primary-dark);
+	margin: -6px 0 6px 0;
+}
+
 /* Helper Classes */
 .mt-6 {
 	margin-top: 6px;
