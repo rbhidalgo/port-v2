@@ -23,13 +23,13 @@ const Index = () => {
 	}
 
 	const { scrollYProgress } = useViewportScroll()
-	const scale = useTransform(scrollYProgress, [0, 1], [1.05, 0])
+	const scale = useTransform(scrollYProgress, [0, 1], [0.9, 0.25])
 
 	return (
 		<motion.div initial='initial' animate='animate' exit={{ opacity: 0 }}>
 			<Layout title='Full Stack Web Developer | Rogelio Hidalgo | Los Angeles, CA'>
 				<IntroSection scale={scale} />
-				<Skills />
+				<Skills scale={scale} />
 				<section className='projects-container wrapper'>
 					<div className='section-title grid'>
 						<h1 className='tt-uc'>Portfolio</h1>

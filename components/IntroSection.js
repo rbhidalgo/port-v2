@@ -138,24 +138,21 @@ class IntroSection extends Component {
 					/>
 
 					<div className='intro-bkg-container'>
-						<motion.img
+						<img
 							src='/img/intro-section-uparrow.svg'
 							className='intro-up-arrow'
-							style={{ scale }}
 							height='36'
 							width='48'
 						/>
-						<motion.img
+						<img
 							src='/img/intro-section-uparrow.svg'
 							className='intro-up-arrow'
-							style={{ scale }}
 							height='36'
 							width='48'
 						/>
-						<motion.img
+						<img
 							src='/img/intro-section-uparrow.svg'
 							className='intro-up-arrow'
-							style={{ scale }}
 							height='36'
 							width='48'
 						/>
