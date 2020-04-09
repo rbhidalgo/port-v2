@@ -19,7 +19,7 @@ const Project = ({
 
 	// }
 	const techItems = tech.map((tech, i) => (
-		<li key={i} style={{ margin: '12px' }}>
+		<li key={i} className='project-tech-tags-item'>
 			{tech}
 		</li>
 	))

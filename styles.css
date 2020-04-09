@@ -312,22 +312,36 @@ li.project-item {
 	flex: 3 1 60%;
 }
 
-.tech-li {
-	margin: 0 6px;
-}
-
 li.project-item:nth-child(odd) {
 	grid-column: 2/7;
-	margin-left: -24px;
+	margin-left: -5.2rem;
 }
 
 li.project-item:nth-child(even) {
 	grid-column: 7/13;
 }
 
-.project-tech-tags {
+ul.project-tech-tags {
 	display: flex;
 	flex-wrap: wrap;
+	list-style: none;
+}
+
+li.project-tech-tags-item {
+	margin-right: 12px;
+	font-family: var(--presicav);
+	font-size: 1.2rem;
+	line-height: 1.4;
+	color: var(--secondary-light);
+}
+
+li.project-tech-tags-item::before {
+	content: '\2022';
+	color: var(--secondary-light);
+	font-weight: bold;
+	display: inline-block;
+	width: 0.8rem;
+	/* margin-right: 6px; */
 }
 
 /* Skills Component */
@@ -412,7 +426,7 @@ span.right-arrow {
 
 .section-title h1 {
 	margin-bottom: 12rem;
-	grid-column: 2/6;
+	grid-column: 2 / auto;
 	margin-left: -2.4rem;
 }
 
