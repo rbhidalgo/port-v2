@@ -126,7 +126,8 @@ section.wrapper {
 	max-width: 49rem;
 }
 
-a.primary-btn {
+a.primary-btn,
+a.secondary-btn {
 	text-transform: uppercase;
 	font-family: var(--presicav);
 	max-height: 3rem;
@@ -138,7 +139,24 @@ a.primary-btn {
 	transition: all 0.2s ease-in-out;
 }
 
-a.primary-btn:hover {
+a.secondary-btn {
+	font-size: 1.4rem;
+	color: #fff;
+	/* grid-column: 2/3; */
+	max-height: 2.5rem;
+}
+
+footer a.secondary-btn:nth-child(1) {
+	grid-column: 2/3;
+}
+
+footer a.secondary-btn:nth-child(2) {
+	grid-column: 3/5;
+	max-width: 16rem;
+}
+
+a.primary-btn:hover,
+a.secondary-btn:hover {
 	padding-bottom: 0px;
 	color: var(--secondary-light);
 	border-bottom: 2px solid var(--secondary-light);
@@ -432,4 +450,11 @@ span.right-arrow {
 
 svg path.d {
 	stroke: var(--secondary-dark);
+}
+
+/* Footer Component */
+
+footer {
+	height: 27.3rem;
+	background-color: var(--primary-dark);
 }
