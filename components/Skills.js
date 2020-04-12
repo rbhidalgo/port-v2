@@ -44,22 +44,16 @@ const Skills = ({ scale }) => {
 					flip: Infinity,
 					repeatDelay: 2.2,
 				}}
-				height='144'
-				width='144'
-			/>
-			<img
-				src='/img/skills-rectangle.svg'
-				className='skills-rect-left'
-				style={{ scale }}
-				height='144'
-				width='144'
+				height='220'
+				width='220'
 			/>
 			<img
 				src='/img/skills-circle-left.svg'
 				className='skills-circle-left spinning'
-				height='110'
-				width='110'
+				height='115'
+				width='115'
 			/>
+
 			<motion.img
 				src='/img/skills-polygon.svg'
 				className='skills-polygon-right'
@@ -72,15 +66,8 @@ const Skills = ({ scale }) => {
 					flip: Infinity,
 					repeatDelay: 2.5,
 				}}
-				height='134'
-				width='154'
-			/>
-			<img
-				src='/img/skills-polygon.svg'
-				className='skills-polygon-right'
-				style={{ scale }}
-				height='134'
-				width='154'
+				height='184'
+				width='204'
 			/>
 			<img
 				src='/img/skills-circle-right.svg'
