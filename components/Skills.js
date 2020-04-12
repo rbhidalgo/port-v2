@@ -44,8 +44,8 @@ const Skills = ({ scale }) => {
 					flip: Infinity,
 					repeatDelay: 2.2,
 				}}
-				height='220'
-				width='220'
+				height='165'
+				width='165'
 			/>
 			<img
 				src='/img/skills-circle-left.svg'
@@ -66,8 +66,8 @@ const Skills = ({ scale }) => {
 					flip: Infinity,
 					repeatDelay: 2.5,
 				}}
-				height='184'
-				width='204'
+				height='170'
+				width='190'
 			/>
 			<img
 				src='/img/skills-circle-right.svg'

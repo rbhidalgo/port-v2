@@ -364,14 +364,14 @@ li.project-tech-tags-item::before {
 }
 .skills-rect-left {
 	position: absolute;
-	top: 117px;
+	top: 148px;
 	left: -90px;
 }
 
 .skills-polygon-right {
 	position: absolute;
-	top: 110px;
-	right: 100px;
+	top: 124px;
+	right: 64px;
 }
 
 .skills-circle-right {
