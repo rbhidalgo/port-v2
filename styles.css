@@ -85,6 +85,13 @@ h5 {
 .mb-48 {
 	margin-bottom: 48px;
 }
+
+.mt-64 {
+	margin-top: 64px;
+}
+.mb-64 {
+	margin-bottom: 64px;
+}
 .mt-120 {
 	margin-top: 120px;
 }
@@ -144,15 +151,6 @@ a.secondary-btn {
 	color: #fff;
 	/* grid-column: 2/3; */
 	max-height: 2.5rem;
-}
-
-footer a.secondary-btn:nth-child(2) {
-	grid-column: 2/3;
-}
-
-footer a.secondary-btn:nth-child(3) {
-	grid-column: 3/5;
-	max-width: 16rem;
 }
 
 a.primary-btn:hover,
@@ -463,4 +461,22 @@ footer hr {
 	grid-column: 2/13;
 	border: 1px solid var(--secondary-light);
 	height: 1px;
+	margin: -24px 0;
+}
+
+footer a.secondary-btn:nth-child(odd) {
+	grid-column: 2/3;
+}
+
+footer a.secondary-btn:nth-child(even) {
+	grid-column: 3/5;
+	max-width: 16rem;
+}
+
+div.footer-arrows {
+	grid-column: 2/13;
+}
+
+.footer-down-arrow {
+	transform: scaleY(-1);
 }
