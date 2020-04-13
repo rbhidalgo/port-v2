@@ -160,7 +160,6 @@ class IntroSection extends Component {
 						<img
 							src='/img/intro-section-ellipse01.svg'
 							className='circle spinning'
-							style={{ scale }}
 							height='81'
 							width='81'
 						/>

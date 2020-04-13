@@ -23,7 +23,7 @@ const Index = () => {
 	}
 
 	const { scrollYProgress } = useViewportScroll()
-	const scale = useTransform(scrollYProgress, [0, 0.5], [1, 1])
+	const scale = useTransform(scrollYProgress, [0.5, 1], [0.85, 1.1])
 
 	return (
 		<motion.div initial='initial' animate='animate' exit={{ opacity: 0 }}>
