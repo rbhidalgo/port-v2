@@ -30,7 +30,7 @@ const Index = () => {
 			<Layout title='Full Stack Web Developer | Rogelio Hidalgo | Los Angeles, CA'>
 				<IntroSection scale={scale} />
 				<Skills scale={scale} />
-				<section className='projects-container wrapper'>
+				<section className='projects wrapper mb-120'>
 					<div className='section-title grid'>
 						<h1 className='tt-uc'>Portfolio</h1>
 						<span className='down-arrow-center'>

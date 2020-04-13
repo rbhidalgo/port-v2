@@ -121,6 +121,10 @@ div.wrapper,
 section.wrapper {
 	max-width: 1366px;
 	margin: 0 auto;
+}
+
+footer div.wrapper,
+section.section-skills div.wrapper {
 	height: 100%;
 }
 .grid {
@@ -304,6 +308,10 @@ img.intro-up-arrow:nth-child(3) {
 
 /* Project Component */
 
+/* section.projects{
+
+} */
+
 .project-img {
 	flex: 1;
 	width: 50%;
@@ -366,7 +374,7 @@ li.project-tech-tags-item::before {
 .section-skills {
 	height: 43.5rem;
 	background-color: var(--primary-dark);
-	width: 100vw;
+	/* width: 100vw; */
 	position: relative;
 }
 .skills-circle-right,
@@ -449,6 +457,14 @@ span.right-arrow {
 
 svg path.d {
 	stroke: var(--secondary-dark);
+}
+
+section.projects {
+	margin-bottom: 12rem;
+}
+
+section.projects ul {
+	list-style: none;
 }
 
 /* Footer Component */
