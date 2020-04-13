@@ -355,9 +355,9 @@ ul.project-tech-tags {
 li.project-tech-tags-item {
 	margin-right: 12px;
 	font-family: var(--presicav);
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	line-height: 1.4;
-	color: var(--secondary-light);
+	color: var(--secondary-dark);
 }
 
 li.project-tech-tags-item::before {

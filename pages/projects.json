@@ -1,51 +1,59 @@
 [
-    {
-        "id": "1",
-        "image": "/img/taco-crawl-browser2.jpg",
-        "name": "Taco Crawl",
-        "description1": "Full stack MERN web app that generates random restaurants that serve tacos using the Yelp API",
-        "description2": "To save a crawl or individual restaurants, the user can register for an account and view their profile",
-        "tech": ["MongoDB", "Express", "React", "Node.js", "CSS", "Google Maps", "Yelp API"],
-        
-            "githubLink": "https://github.com/rbhidalgo/tacocrawl",
-            "siteLink": "https://la-taco-crawl.herokuapp.com/",
-    
-        "responsive": true
-    },
-    {
-        "id": "2",
-        "image": "/img/beer-o-slots-browser.jpg",
-        "name": "Beer O' Slots V2",
-        "description1": "Worked along with a UX-UI designer to revamp the game and made it more user friendly",
-        "description2": "Wrote javascript functions to check matching images horizontally, vertically and diagonally",
-        "tech": ["HTML5", "CSS3", "Vanilla Javascript", "Javascript"],
-        
-            "githubLink": "https://github.com/rbhidalgo/slot-machine-v2",
-            "siteLink": "https://rbhidalgo.github.io/slot-machine-v2/",
-        "responsive": false
-    },
-    {
-        "id": "3",
-        "image": "/img/taco-crawl-browser-org.jpg",
-        "name": "Beer O' Slots V1",
-        "description1": "Created a slot machine game using Javascript, HTML5, CSS3, Vanilla javascript",
-        "description2": "Wrote javascript functions to check matching images horizontally, vertically and diagonally",
-        "tech": ["HTML5", "CSS3", "Vanilla Javascript", "Javascript"],
-        
-            "githubLink": "https://github.com/rbhidalgo/project-1-slot-machine",
-            "siteLink": "https://rbhidalgo.github.io/project-1-slot-machine/",
-        "responsive": false
-    },
-    {
-        "id": "4",
-        "image": "/img/la-hop-responsive.jpg",
-        "name": "LA-HOP",
-        "description1": "MERN Stack, mobile first app",
-        "description2": "Worked with a team of UX-UI designers and developers to create a new experience for LA HOP homeless advocates. Created in 2.5 days for GA's first hackathon",
-        "tech": ["MongoDB", "Express", "React", "Node.js", "CSS", "Bootstrap"],
-        
-            "githubLink": "https://github.com/rbhidalgo/la-hop",
-            "siteLink": "https://lahsa-la-hopv2.herokuapp.com/learn",
-        "responsive": false
-    }
+	{
+		"id": "1",
+		"image": "/img/taco-crawl-mobile.jpg",
+		"name": "Taco Crawl",
+		"description1": "Full stack MERN web app that generates random restaurants that serve tacos using the Yelp API",
+		"description2": "To save a crawl or individual restaurants, the user can register for an account and view their profile",
+		"tech": [
+			"MongoDB",
+			"Express",
+			"React",
+			"Node.js",
+			"CSS",
+			"Google Maps",
+			"Yelp API"
+		],
+
+		"githubLink": "https://github.com/rbhidalgo/tacocrawl",
+		"siteLink": "https://la-taco-crawl.herokuapp.com/",
+
+		"responsive": true
+	},
+	{
+		"id": "2",
+		"image": "/img/beer-o-slots-desk-responsive.jpg",
+		"name": "Beer O' Slots V2",
+		"description1": "Worked along with a UX-UI designer to revamp the game and made it more user friendly",
+		"description2": "Wrote javascript functions to check matching images horizontally, vertically and diagonally",
+		"tech": ["HTML5", "CSS3", "Vanilla Javascript", "Javascript"],
+
+		"githubLink": "https://github.com/rbhidalgo/slot-machine-v2",
+		"siteLink": "https://rbhidalgo.github.io/slot-machine-v2/",
+		"responsive": false
+	},
+	{
+		"id": "3",
+		"image": "/img/taco-crawl-browser-org.jpg",
+		"name": "Beer O' Slots V1",
+		"description1": "Created a slot machine game using Javascript, HTML5, CSS3, Vanilla javascript",
+		"description2": "Wrote javascript functions to check matching images horizontally, vertically and diagonally",
+		"tech": ["HTML5", "CSS3", "Vanilla Javascript", "Javascript"],
+
+		"githubLink": "https://github.com/rbhidalgo/project-1-slot-machine",
+		"siteLink": "https://rbhidalgo.github.io/project-1-slot-machine/",
+		"responsive": false
+	},
+	{
+		"id": "4",
+		"image": "/img/la-hop-responsive.jpg",
+		"name": "LA-HOP",
+		"description1": "MERN Stack, mobile first app",
+		"description2": "Worked with a team of UX-UI designers and developers to create a new experience for LA HOP homeless advocates. Created in 2.5 days for GA's first hackathon",
+		"tech": ["MongoDB", "Express", "React", "Node.js", "CSS", "Bootstrap"],
+
+		"githubLink": "https://github.com/rbhidalgo/la-hop",
+		"siteLink": "https://lahsa-la-hopv2.herokuapp.com/learn",
+		"responsive": false
+	}
 ]

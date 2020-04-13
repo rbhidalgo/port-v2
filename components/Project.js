@@ -25,24 +25,21 @@ const Project = ({
 	))
 
 	return (
-		<li className='project-item' key={index}>
-			<div className='project-item-left'>
-				<p>{description1}</p>
-				<p>{description2}</p>
+		<li className='project-item mb-64' key={index}>
+			<h5>{name}</h5>
+			<ul className='project-tech-tags'>{techItems}</ul>
+			<img src={image} alt='`screenshot of project ${props.name}`' />
 
-				<a href={githubLink} target='_blank'>
-					Github Link
-				</a>
-				<a href={siteLink} target='_blank'>
-					Site Link
-				</a>
-			</div>
-			<div className='project-item-right'>
-				<h5>{name}</h5>
-				<ul className='project-tech-tags'>{techItems}</ul>
-				<img src={image} alt='`screenshot of project ${props.name}`' />
-				{responsive ? <p>responsive</p> : <p>not responsive</p>}
-			</div>
+			<p>{description1}</p>
+			<p>{description2}</p>
+
+			<a href={githubLink} target='_blank'>
+				Github Link
+			</a>
+			<a href={siteLink} target='_blank'>
+				Site Link
+			</a>
+			{responsive ? <p>responsive</p> : <p>not responsive</p>}
 			{/* <div
 				className='project-img'
 				style={{ backgroundImage: `url("${image}")` }}></div> */}
