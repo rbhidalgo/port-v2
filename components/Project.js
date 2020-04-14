@@ -34,7 +34,7 @@ const Project = ({
 			<p>{description1}</p>
 			<p>{description2}</p>
 			<h5></h5>
-			<a href={githubLink} className='primary-btn mt-24' target='_blank'>
+			<a href={githubLink} className='primary-btn mt-24 mr-24' target='_blank'>
 				View Code
 			</a>
 			<a href={siteLink} className='primary-btn mt-24' target='_blank'>

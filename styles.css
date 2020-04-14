@@ -109,6 +109,10 @@ h4 {
 	text-transform: uppercase;
 }
 
+.mr-24 {
+	margin-right: 24px;
+}
+
 .primary-dark {
 	color: var(--primary-dark);
 }
@@ -143,7 +147,7 @@ section.section-skills div.wrapper {
 	max-width: 49rem;
 }
 
-a.primary-btn,
+.primary-btn,
 a.secondary-btn {
 	text-transform: uppercase;
 	font-family: var(--presicav);
@@ -163,7 +167,7 @@ a.secondary-btn {
 	max-height: 2.5rem;
 }
 
-a.primary-btn:hover,
+.primary-btn:hover,
 a.secondary-btn:hover {
 	padding-bottom: 0px;
 	color: var(--secondary-light);
@@ -171,9 +175,9 @@ a.secondary-btn:hover {
 	transform: scale(1.02);
 }
 
-a.primary-btn:nth-child(odd) {
+/* a.primary-btn:nth-child(odd) {
 	margin-right: 24px;
-}
+} */
 
 span.down-arrow {
 	position: relative;
