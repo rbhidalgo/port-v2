@@ -27,17 +27,18 @@ const Project = ({
 	return (
 		<li className='project-item mb-64' key={index}>
 			<h5>{name}</h5>
-			<ul className='project-tech-tags'>{techItems}</ul>
+
 			<img src={image} alt='`screenshot of project ${props.name}`' />
+			<ul className='project-tech-tags'>{techItems}</ul>
 
 			<p>{description1}</p>
 			<p>{description2}</p>
 
-			<a href={githubLink} target='_blank'>
-				Github Link
+			<a href={githubLink} className='primary-btn' target='_blank'>
+				View Code
 			</a>
-			<a href={siteLink} target='_blank'>
-				Site Link
+			<a href={siteLink} className='primary-btn' target='_blank'>
+				View Site
 			</a>
 			{responsive ? <p>responsive</p> : <p>not responsive</p>}
 			{/* <div
