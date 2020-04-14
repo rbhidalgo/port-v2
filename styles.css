@@ -328,6 +328,7 @@ img.intro-up-arrow:nth-child(3) {
 }
 
 li.project-item {
+	padding: 0 24px;
 	/* display: flex; */
 	/* flex-wrap: wrap; */
 }
