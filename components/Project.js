@@ -33,11 +33,11 @@ const Project = ({
 
 			<p>{description1}</p>
 			<p>{description2}</p>
-			{/* <h5>View</h5> */}
-			<a href={githubLink} className='primary-btn' target='_blank'>
+			<h5></h5>
+			<a href={githubLink} className='primary-btn mt-24' target='_blank'>
 				View Code
 			</a>
-			<a href={siteLink} className='primary-btn' target='_blank'>
+			<a href={siteLink} className='primary-btn mt-24' target='_blank'>
 				View Site
 			</a>
 			{/* {responsive ? <p>responsive</p> : <p>not responsive</p>} */}

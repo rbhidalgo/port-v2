@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link, animateScroll as scroll } from 'react-scroll'
 import { motion, useViewportScroll, useTransform } from 'framer-motion'
 
 // import Link from 'next/link'
@@ -72,12 +73,14 @@ class IntroSection extends Component {
 							className='primary-btn mt-48'>
 							get in touch
 						</motion.a>
-						<motion.a
-							whileTap={{ scale: 0.8 }}
-							href='#'
-							className='primary-btn mt-48'>
-							view my portfolio
-						</motion.a>
+						<Link to='port' smooth={true} offset={-70} duration={500}>
+							<motion.a
+								whileTap={{ scale: 0.8 }}
+								href='#'
+								className='primary-btn mt-48'>
+								view my portfolio
+							</motion.a>
+						</Link>
 						<span className='down-arrow'>
 							<img
 								src='/img/intro-section-downarrow.svg'

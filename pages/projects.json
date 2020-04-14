@@ -5,7 +5,14 @@
 		"name": "Taco Crawl",
 		"description1": "Full stack MERN web app that generates random restaurants that serve tacos using the Yelp API",
 		"description2": "To save a crawl or individual restaurants, the user can register for an account and view their profile",
-		"tech": ["MongoDB", "Express", "React", "Node.js", "Yelp API"],
+		"tech": [
+			"MongoDB",
+			"Express",
+			"React",
+			"Node.js",
+			"Yelp API",
+			"Google Maps"
+		],
 
 		"githubLink": "https://github.com/rbhidalgo/tacocrawl",
 		"siteLink": "https://la-taco-crawl.herokuapp.com/",
