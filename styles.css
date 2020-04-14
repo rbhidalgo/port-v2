@@ -489,7 +489,7 @@ section.projects {
 
 section.projects ul {
 	list-style: none;
-	margin-bottom: 12px;
+	margin: 6px 0 18px 0;
 }
 
 /* Footer Component */

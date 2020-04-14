@@ -26,9 +26,9 @@ const Project = ({
 
 	return (
 		<li className='project-item mb-64' key={index}>
+			<img src={image} alt='`screenshot of project ${props.name}`' />
 			<h4>{name}</h4>
 
-			<img src={image} alt='`screenshot of project ${props.name}`' />
 			<ul className='project-tech-tags'>{techItems}</ul>
 
 			<p>{description1}</p>
