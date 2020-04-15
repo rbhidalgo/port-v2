@@ -510,6 +510,7 @@ section.projects ul {
 footer {
 	height: 27.3rem;
 	background-color: var(--primary-dark);
+	position: relative;
 }
 
 footer hr {
@@ -534,6 +535,15 @@ div.footer-arrows {
 
 .footer-down-arrow {
 	transform: scaleY(-1);
+}
+
+.to-top-btn {
+	position: absolute;
+	bottom: 50%;
+	right: 3%;
+	transform: translate(50%, 50%);
+	background: var(--primary-light);
+	padding: 12px 10px;
 }
 
 /* Media Query */
