@@ -142,19 +142,19 @@ class IntroSection extends Component {
 
 					<div className='intro-bkg-container'>
 						<img
-							src='/img/intro-section-uparrow.svg'
+							src='/img/intro-section-up-arrow.svg'
 							className='intro-up-arrow'
 							height='36'
 							width='48'
 						/>
 						<img
-							src='/img/intro-section-uparrow.svg'
+							src='/img/intro-section-up-arrow.svg'
 							className='intro-up-arrow'
 							height='36'
 							width='48'
 						/>
 						<img
-							src='/img/intro-section-uparrow.svg'
+							src='/img/intro-section-up-arrow.svg'
 							className='intro-up-arrow'
 							height='36'
 							width='48'
