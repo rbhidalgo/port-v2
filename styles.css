@@ -533,7 +533,8 @@ div.footer-arrows {
 }
 
 div.footer-right-socials {
-	grid-column: 11/12;
+	grid-column: 10/12;
+	justify-self: end;
 }
 
 div.footer-right-socials a {
