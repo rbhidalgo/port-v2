@@ -532,6 +532,10 @@ div.footer-arrows {
 	grid-column: 2/13;
 }
 
+div.footer-right-socials {
+	grid-column: 11/-1;
+}
+
 .footer-down-arrow {
 	transform: scaleY(-1);
 }

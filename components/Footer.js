@@ -41,6 +41,12 @@ const Footer = () => {
 					className='to-top-btn'
 					onClick={scrollToTop}
 				/>
+				<div className='footer-right-socials'>
+					<img src='/socials/bxs-file-pdf.svg' />
+					<img src='/socials/bxl-github.svg' />
+					<img src='/socials/bxl-linkedin-square.svg' />
+					<img src='/socials/bxl-dribbble.svg' />
+				</div>
 			</div>
 		</footer>
 	)
