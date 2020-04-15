@@ -533,7 +533,19 @@ div.footer-arrows {
 }
 
 div.footer-right-socials {
-	grid-column: 11/-1;
+	grid-column: 11/12;
+}
+
+div.footer-right-socials a {
+	margin-right: 0.8rem;
+}
+
+div.footer-right-socials a img {
+	width: 2.4rem;
+}
+
+div.footer-right-socials a:last-child {
+	margin-right: 0;
 }
 
 .footer-down-arrow {

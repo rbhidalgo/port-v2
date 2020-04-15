@@ -42,10 +42,15 @@ const Footer = () => {
 					onClick={scrollToTop}
 				/>
 				<div className='footer-right-socials'>
-					<img src='/socials/bxs-file-pdf.svg' />
-					<img src='/socials/bxl-github.svg' />
-					<img src='/socials/bxl-linkedin-square.svg' />
-					<img src='/socials/bxl-dribbble.svg' />
+					<a href='https://github.com/rbhidalgo' target='_blank'>
+						<img src='/socials/bxl-github.svg' />
+					</a>
+					<a href='https://www.linkedin.com/in/rhidalgob/' target='_blank'>
+						<img src='/socials/bxl-linkedin-square.svg' />
+					</a>
+					<a href='https://dribbble.com/rhidalgob' target='_blank'>
+						<img src='/socials/bxl-dribbble.svg' />
+					</a>
 				</div>
 			</div>
 		</footer>
