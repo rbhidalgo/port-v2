@@ -8,7 +8,7 @@ const Layout = ({ children, title }) => (
 			<title>{title}</title>
 			<link rel='stylesheet' href='https://use.typekit.net/juf8edt.css'></link>
 		</Head>
-		<Navbar />
+		{/* <Navbar /> */}
 		<>{children}</>
 		<Footer />
 		<style jsx global>{``}</style>
