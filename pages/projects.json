@@ -35,7 +35,7 @@
 		"id": "3",
 		"image": "/img/fest-planner-desk.png",
 		"name": "Festival Planner",
-		"description1": "Worked in a team of 3 developers to build a MEN stack CRUD app, user can register, view events and add them to their schedule",
+		"description1": "MEN stack CRUD app, user can register, view events and add them to their schedule",
 		"description2": "Worked on the Front-End using HTML5, CSS3, Vanilla Javascript and Back-End, Mongoose, MongoDB, Express Node.js, EJS",
 		"tech": [
 			"HTML5",
