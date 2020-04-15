@@ -140,7 +140,7 @@ section.section-skills div.wrapper {
 .grid {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	margin: 0 6.4rem;
+	/* margin: 0 6.4rem; */
 	grid-column-gap: 2.4rem;
 }
 .max-width {
@@ -406,6 +406,7 @@ li.project-tech-tags-item {
 	background-color: var(--primary-dark);
 	/* width: 100vw; */
 	position: relative;
+	margin-bottom: 24rem;
 }
 .skills-circle-right,
 .skills-circle-left {
@@ -482,7 +483,7 @@ span.right-arrow {
 .section-title h1 {
 	margin-bottom: 12rem;
 	grid-column: 2 / auto;
-	margin-left: -2.4rem;
+	/* margin-left: -2.4rem; */
 }
 
 svg path.d {
