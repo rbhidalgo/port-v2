@@ -36,9 +36,11 @@ const Footer = () => {
 				<a href='mailto:hello@erhidalgo.com' className='secondary-btn'>
 					View my Resume
 				</a>
-				<a href='#' onClick={scrollToTop}>
-					<img src='/img/intro-section-uparrow.svg' className='to-top-btn' />
-				</a>
+				<img
+					src='/img/intro-section-uparrow.svg'
+					className='to-top-btn'
+					onClick={scrollToTop}
+				/>
 			</div>
 		</footer>
 	)

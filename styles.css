@@ -133,7 +133,6 @@ section.wrapper {
 	margin: 0 auto;
 }
 
-footer div.wrapper,
 section.section-skills div.wrapper {
 	height: 100%;
 }
@@ -508,7 +507,7 @@ section.projects ul {
 /* Footer Component */
 
 footer {
-	height: 27.3rem;
+	height: 30rem;
 	background-color: var(--primary-dark);
 	position: relative;
 }
@@ -517,7 +516,7 @@ footer hr {
 	grid-column: 2/13;
 	border: 1px solid var(--secondary-light);
 	height: 1px;
-	margin: -24px 0;
+	margin: 6px 0 36px 0;
 }
 
 footer a.secondary-btn:nth-child(odd) {
@@ -544,6 +543,14 @@ div.footer-arrows {
 	transform: translate(50%, 50%);
 	background: var(--primary-light);
 	padding: 12px 10px;
+	cursor: pointer;
+	transition: all ease-in-out 0.5s;
+}
+
+.to-top-btn:hover {
+	border: 2px solid var(--primary-light);
+	background-color: var(--primary-dark);
+	padding: 8px 6px;
 }
 
 /* Media Query */
