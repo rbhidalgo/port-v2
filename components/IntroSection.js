@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link, animateScroll as scroll } from 'react-scroll'
 import { motion, useViewportScroll, useTransform } from 'framer-motion'
+import GeoShape from './svg/GeoShape'
 
 // import Link from 'next/link'
 
@@ -100,13 +101,7 @@ class IntroSection extends Component {
 						whileHover={{ opacity: 0, x: 85, zIndex: 1, delay: 0 }}
 						transition={{ delay: 0.1 }}
 					/>
-					<motion.img
-						src='/img/intro-section-rect1.svg'
-						className='rectangle'
-						style={{ scale }}
-						height='64'
-						width='64'
-					/>
+					<GeoShape className='rectangle' height='64px' width='64px' />
 
 					<motion.img
 						src='/img/intro-section-poly02.svg'

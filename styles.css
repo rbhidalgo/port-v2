@@ -212,7 +212,7 @@ span.down-arrow-center {
 	grid-column: 2/8;
 	align-self: center;
 }
-img.circle {
+.circle {
 	position: absolute;
 	left: -36px;
 	top: -18px;
@@ -220,7 +220,7 @@ img.circle {
 	z-index: 0;
 }
 
-img.big-circle {
+.big-circle {
 	position: absolute;
 	right: -36px;
 	bottom: -36px;
@@ -228,29 +228,29 @@ img.big-circle {
 	z-index: 0;
 }
 
-img.rectangle {
+.rectangle {
 	position: relative;
 	left: 162px;
 	top: 136px;
-	transform: rotateZ(270deg);
+	/* transform: rotateZ(270deg); */
 	z-index: 3;
 }
 
-img.intro-top-poly {
+.intro-top-poly {
 	position: relative;
 	left: 162px;
 	top: -154px;
 	z-index: 3;
 }
 
-img.intro-btm-poly {
+.intro-btm-poly {
 	position: relative;
 	left: -34px;
 	bottom: -124px;
 	z-index: 3;
 }
 
-img.intro-up-arrow {
+.intro-up-arrow {
 	position: absolute;
 	bottom: 0;
 	left: -102px;
