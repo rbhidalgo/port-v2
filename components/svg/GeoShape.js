@@ -4,16 +4,16 @@ import { motion } from 'framer-motion'
 function GeoShape(props) {
 	const list = {
 		visible: {
-			// opacity: 1,
-			scale: 1.1,
+			opacity: 1,
+			// scale: 1.5,
 			transition: {
 				when: 'beforeChildren',
 				staggerChildren: 0.3,
 			},
 		},
 		hidden: {
-			// opacity: 0,
-			scale: 0,
+			opacity: 0,
+			// scale: 2,
 
 			transition: {
 				when: 'afterChildren',
@@ -21,10 +21,10 @@ function GeoShape(props) {
 		},
 	}
 
-	const item = {
-		visible: { opacity: 1, x: 0, rotate: 360 },
-		hidden: { opacity: 0, x: -100 },
-	}
+	// const item = {
+	// 	visible: { opacity: 1, x: 0, rotate: 360 },
+	// 	hidden: { opacity: 0, x: -100 },
+	// }
 
 	const variants = {
 		visible: (i) => ({
@@ -35,12 +35,16 @@ function GeoShape(props) {
 				delay: i * 0.3,
 				ease: 'easeInOut',
 				flip: Infinity,
-				repeatDelay: 3,
+				repeatDelay: 2.5,
 				direction: 'alternate',
-				duration: 0.5,
+
+				duration: 1,
 			},
 		}),
-		hidden: { opacity: 0 },
+		hidden: {
+			opacity: 0,
+			// scale: 1.5
+		},
 	}
 	return (
 		<motion.svg
