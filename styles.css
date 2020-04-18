@@ -383,11 +383,11 @@ li.project-tech-tags-item {
 
 	margin: 64px 0 36px 0;
 
-	padding: 24px 0;
+	padding: 24px 0 24px 3.8rem;
 }
 
 .inner-text {
-	text-align: center;
+	text-align: left;
 }
 
 .inner-text h1 {
@@ -425,11 +425,18 @@ li.project-tech-tags-item {
 	right: -106px;
 }
 
+.skills-text-list {
+	grid-column: 2/4;
+	/* grid-row: 1/2; */
+	/* align-self: center; */
+}
+
 .section-skills ul {
 	text-transform: uppercase;
 	color: var(--neutral-light);
 	list-style-type: none;
 	line-height: 2;
+	column-count: 2;
 }
 
 .section-skills ul li {
@@ -576,7 +583,7 @@ div.footer-right-socials a:last-child {
 		height: 43.5rem;
 	}
 
-	div.skills-text-heading {
+	.skills-text-heading {
 		position: relative;
 		height: 100%;
 		grid-column: 2/4;
@@ -586,7 +593,7 @@ div.footer-right-socials a:last-child {
 		margin: 0;
 		padding: 0;
 	}
-	div.skills-text-list {
+	.skills-text-list {
 		grid-column: 5/11;
 		grid-row: 1/2;
 		align-self: center;
