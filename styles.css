@@ -411,14 +411,14 @@ li.project-tech-tags-item {
 
 .skills-rect-left {
 	position: absolute;
-	top: 90px;
+	bottom: -10%;
 	left: -100px;
 }
 
 .skills-polygon-right {
 	position: absolute;
 	top: 24px;
-	right: 0px;
+	right: -24%;
 }
 
 .skills-circle-right {
@@ -512,11 +512,10 @@ div.footer-right-socials a:last-child {
 
 .to-top-btn {
 	position: absolute;
-	bottom: 50%;
-	right: 5%;
-	transform: translate(50%, 50%);
+	bottom: 10%;
+	right: 10%;
 	background: var(--primary-light);
-	padding: 12px 10px;
+	padding: 1rem;
 	cursor: pointer;
 	transition: all ease-in-out 0.5s;
 }
