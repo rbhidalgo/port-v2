@@ -130,12 +130,6 @@ img {
 	border-radius: 6px;
 }
 
-div.wrapper,
-section.wrapper {
-	max-width: 1366px;
-	/* margin: 0 auto; */
-}
-
 section.section-skills div.wrapper {
 	height: 100%;
 }
@@ -498,6 +492,13 @@ div.footer-right-socials a:last-child {
 /* Media Queries */
 
 @media (min-width: 1039px) {
+	div.wrapper,
+	section.wrapper {
+		max-width: 1366px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
 	.l-mt-48 {
 		margin-top: 4.8rem;
 	}
