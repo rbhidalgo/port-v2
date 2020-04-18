@@ -474,6 +474,17 @@ footer {
 	position: relative;
 }
 
+.footer-arrows {
+	grid-column: 2/4;
+}
+
+footer hr {
+	grid-column: 2/4;
+	border: 1px solid var(--secondary-light);
+	height: 1px;
+	margin: 6px 0 24px 0;
+}
+
 div.footer-right-socials a {
 	margin-right: 0.8rem;
 }
@@ -655,8 +666,6 @@ section.wrapper {
 
 	footer hr {
 		grid-column: 2/12;
-		border: 1px solid var(--secondary-light);
-		height: 1px;
 		margin: 6px 0 36px 0;
 	}
 
@@ -669,11 +678,11 @@ section.wrapper {
 		max-width: 16rem;
 	}
 
-	div.footer-arrows {
+	.footer-arrows {
 		grid-column: 2/13;
 	}
 
-	div.footer-right-socials {
+	.footer-right-socials {
 		grid-column: 10/12;
 		justify-self: end;
 	}
