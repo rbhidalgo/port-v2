@@ -505,6 +505,11 @@ div.footer-right-socials a:last-child {
 	padding: 8px 6px;
 }
 
+div.wrapper,
+section.wrapper {
+	margin: 0;
+}
+
 /* Media Queries */
 
 @media (min-width: 1039px) {
