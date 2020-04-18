@@ -47,7 +47,7 @@ class IntroSection extends Component {
 		const { scale } = this.props
 		return (
 			<motion.section
-				className='intro grid wrapper sml-mt-120'
+				className='intro grid wrapper'
 				animate={{ opacity: 1, x: 0 }}
 				transition={{ delay: 0.2 }}
 				initial={{ opacity: 0, x: -200 }}>
