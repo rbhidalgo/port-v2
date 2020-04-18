@@ -487,6 +487,7 @@ footer hr {
 
 footer a.secondary-btn {
 	grid-column: 2/4;
+	margin-bottom: 2.4rem;
 }
 
 .footer-right-socials {
