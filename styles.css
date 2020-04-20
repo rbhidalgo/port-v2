@@ -179,10 +179,7 @@ span.down-arrow {
 }
 
 span.down-arrow-center {
-	position: relative;
-	top: 28px;
-	left: -12px;
-	padding: 0 0 0 6px;
+	padding-top: 12px;
 }
 
 /*  Animations  */
@@ -617,6 +614,13 @@ section.wrapper {
 	li.project-item:nth-child(even) {
 		grid-column: 7/12;
 		/* margin-right: 5.2rem; */
+	}
+
+	span.down-arrow-center {
+		position: relative;
+		top: 28px;
+		left: -12px;
+		padding: 0 0 0 6px;
 	}
 
 	.section-skills {
