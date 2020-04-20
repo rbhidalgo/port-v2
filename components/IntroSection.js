@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Link, animateScroll as scroll } from 'react-scroll'
 import { motion, useViewportScroll, useTransform } from 'framer-motion'
+import GeoShape from './svg/GeoShape'
+import GeoShape2 from './svg/GeoShape2'
 
 // import Link from 'next/link'
 
@@ -44,52 +46,52 @@ class IntroSection extends Component {
 	render() {
 		const { scale } = this.props
 		return (
-			<div className='wrapper'>
-				<section className='intro grid'>
-					<div className='intro-left-container'>
-						<motion.p
-							className='headline-body primary-light'
-							animate={{ opacity: 1 }}
-							transition={{ delay: 0.2 }}
-							initial={{ opacity: 0 }}>
-							Rogelio Hidalgo, Full Stack
-						</motion.p>
-						<h1>Web Developer</h1>
-						<p className='headline-body primary-dark'>
-							with a creative edge and a eye for UI/UX
-						</p>
-						<p className='max-width primary-light'>
-							focusing on front-end development with the ability to be flexible
-							and adapt to various projects. My knowledge in full-stack
-							development paired with my experience in graphic design allows me
-							to build applications that are aesthetically pleasing and
-							functional. I look forward to working with a team that values
-							continual growth and development.
-						</p>
+			<motion.section
+				className='intro grid wrapper'
+				animate={{ opacity: 1, x: 0 }}
+				transition={{ delay: 0.2 }}
+				initial={{ opacity: 0, x: -200 }}>
+				<div className='intro-left-container'>
+					<p className='headline-body primary-light'>
+						Rogelio Hidalgo, Full Stack
+					</p>
+					<h1>Web Developer</h1>
+					<p className='headline-body primary-dark'>
+						with a creative edge and a eye for UI/UX
+					</p>
+					<p className='max-width primary-light'>
+						focusing on front-end development with the ability to be flexible
+						and adapt to various projects. My knowledge in full-stack
+						development paired with my experience in graphic design allows me to
+						build applications that are aesthetically pleasing and functional. I
+						look forward to working with a team that values continual growth and
+						development.
+					</p>
 
+					<motion.a
+						whileTap={{ scale: 0.8 }}
+						href='#'
+						className='primary-btn l-mt-48 l-mr-24 mt-24'>
+						get in touch
+					</motion.a>
+					<Link to='port' smooth={true} offset={-70} duration={500}>
 						<motion.a
 							whileTap={{ scale: 0.8 }}
 							href='#'
-							className='primary-btn mt-48 mr-24'>
-							get in touch
+							className='primary-btn l-mt-48 mt-24'>
+							view my portfolio
 						</motion.a>
-						<Link to='port' smooth={true} offset={-70} duration={500}>
-							<motion.a
-								whileTap={{ scale: 0.8 }}
-								href='#'
-								className='primary-btn mt-48'>
-								view my portfolio
-							</motion.a>
-						</Link>
-						<span className='down-arrow'>
-							<img
-								src='/img/intro-section-downarrow.svg'
-								alt='down arrow'
-								height='20'
-								width='22'
-							/>
-						</span>
-					</div>
+					</Link>
+					<span className='down-arrow'>
+						<img
+							src='/img/intro-section-downarrow.svg'
+							alt='down arrow'
+							height='20'
+							width='22'
+						/>
+					</span>
+				</div>
+				<div className='intro-right-container'>
 					<motion.img
 						src='/img/rogelio-photo-bio.jpg'
 						className='top-img'
@@ -100,13 +102,9 @@ class IntroSection extends Component {
 						whileHover={{ opacity: 0, x: 85, zIndex: 1, delay: 0 }}
 						transition={{ delay: 0.1 }}
 					/>
-					<motion.img
-						src='/img/intro-section-rect1.svg'
-						className='rectangle'
-						style={{ scale }}
-						height='64'
-						width='64'
-					/>
+					{/* <GeoShape className='rectangle' height='64px' width='64px' /> */}
+
+					{/* <GeoShape2 className='rectangle' height='96px' width='96px' /> */}
 
 					<motion.img
 						src='/img/intro-section-poly02.svg'
@@ -174,8 +172,8 @@ class IntroSection extends Component {
 							width='111'
 						/>
 					</div>
-				</section>
-			</div>
+				</div>
+			</motion.section>
 		)
 	}
 }
