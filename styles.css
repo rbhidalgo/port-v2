@@ -22,6 +22,7 @@
 html {
 	/* 1 rem will equal 10px */
 	font-size: 62.5%;
+	overflow-y: scroll;
 }
 body {
 	margin: 0;
