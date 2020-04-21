@@ -42,6 +42,7 @@ p.headline-body {
 h1 {
 	font-family: var(--tussilago);
 	font-size: 3.8rem;
+	font-weight: 900;
 	-webkit-text-stroke: 2px var(--primary-dark);
 	-webkit-text-fill-color: rgba(255, 255, 255, 0);
 	text-shadow: 4px 3px 0px #bcc3ffb5;
@@ -157,7 +158,7 @@ a.secondary-btn {
 	color: var(--secondary-dark);
 	padding-bottom: 3px;
 	border-bottom: 2px solid var(--secondary-dark);
-	transition: all 0.2s ease-in-out;
+	transition: all 0.5s cubic-bezier(0.39, 0.58, 0.57, 1);
 }
 
 a.secondary-btn {
@@ -568,8 +569,8 @@ section.wrapper {
 		font-size: 1.8rem;
 	}
 	h1 {
-		font-size: 6.4rem;
-		-webkit-text-stroke: 3.2px var(--primary-dark);
+		font-size: 6rem;
+		-webkit-text-stroke: 3px var(--primary-dark);
 	}
 
 	h4,
