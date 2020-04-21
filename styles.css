@@ -2,6 +2,8 @@
 	--presicav: presicav, sans-serif;
 	--nimbus: nimbus-sans-extended, sans-serif;
 	--farm-new: farm-new, sans-serif;
+	--tussilago: tussilago, sans-serif;
+
 	/* colors */
 	--primary-dark: #353d8f;
 	--primary-light: #575ea6;
@@ -38,7 +40,7 @@ p.headline-body {
 	font-family: var(--presicav);
 }
 h1 {
-	font-family: var(--farm-new);
+	font-family: var(--tussilago);
 	font-size: 3.8rem;
 	-webkit-text-stroke: 2px var(--primary-dark);
 	-webkit-text-fill-color: rgba(255, 255, 255, 0);
@@ -49,7 +51,7 @@ h1 {
 
 h4,
 h5 {
-	font-family: var(--farm-new);
+	font-family: var(--tussilago);
 	font-size: 2.4rem;
 	color: var(--primary-dark);
 	margin: -6px 0 -6px 0;
@@ -566,8 +568,8 @@ section.wrapper {
 		font-size: 1.8rem;
 	}
 	h1 {
-		font-size: 7.2rem;
-		-webkit-text-stroke: 4px var(--primary-dark);
+		font-size: 6.4rem;
+		-webkit-text-stroke: 3.2px var(--primary-dark);
 	}
 
 	h4,

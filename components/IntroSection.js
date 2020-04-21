@@ -102,11 +102,11 @@ class IntroSection extends Component {
 						whileHover={{ opacity: 0, x: 85, zIndex: 1, delay: 0 }}
 						transition={{ delay: 0.1 }}
 					/>
-					{/* <GeoShape className='rectangle' height='64px' width='64px' /> */}
+					<GeoShape className='rectangle' height='64px' width='64px' />
 
-					{/* <GeoShape2 className='rectangle' height='96px' width='96px' /> */}
+					<GeoShape2 className='rectangle' height='96px' width='96px' />
 
-					<motion.img
+					{/* <motion.img
 						src='/img/intro-section-poly02.svg'
 						className='intro-top-poly'
 						style={{ scale }}
@@ -120,7 +120,7 @@ class IntroSection extends Component {
 						style={{ scale }}
 						height='62'
 						width='72'
-					/>
+					/> */}
 
 					<img
 						src='/img/cookie-doggie.jpg'
