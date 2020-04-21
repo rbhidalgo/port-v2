@@ -546,7 +546,11 @@ section.wrapper {
 }
 
 /* Media Queries */
-
+@media (min-width: 680px) {
+	.section-skills ul {
+		column-count: 3;
+	}
+}
 @media (min-width: 1039px) {
 	div.wrapper,
 	section.wrapper {
