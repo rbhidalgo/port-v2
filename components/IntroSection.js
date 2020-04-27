@@ -167,11 +167,16 @@ class IntroSection extends Component {
 						/>
 
 						<img
+							src='/img/intro-laptop.svg'
+							className='intro-laptop'
+							height='300'
+						/>
+						{/* <img
 							src='/img/intro-section-ellipse01.svg'
 							className='big-circle spinning'
 							height='111'
 							width='111'
-						/>
+						/> */}
 					</div>
 				</div>
 			</motion.section>

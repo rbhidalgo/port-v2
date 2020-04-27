@@ -237,6 +237,13 @@ span.down-arrow-center {
 	animation: spin 50s linear infinite;
 	z-index: 0;
 }
+.intro-laptop {
+	position: absolute;
+	right: -36px;
+	bottom: -90px;
+	/* animation: spin 50s linear infinite; */
+	z-index: 0;
+}
 
 .rectangle {
 	position: relative;
