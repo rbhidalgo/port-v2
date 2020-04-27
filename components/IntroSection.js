@@ -92,7 +92,7 @@ class IntroSection extends Component {
 					</span>
 				</div>
 				<div className='intro-right-container'>
-					<motion.img
+					{/* <motion.img
 						src='/img/rogelio-photo-bio.jpg'
 						className='top-img'
 						onMouseOver={this.onMouseOver}
@@ -101,7 +101,8 @@ class IntroSection extends Component {
 						animate={{ x: 0, opacity: 1 }}
 						whileHover={{ opacity: 0, x: 85, zIndex: 1, delay: 0 }}
 						transition={{ delay: 0.1 }}
-					/>
+					/> */}
+					<img src='/img/intro-rog.svg' className='top-img' />
 					<GeoShape className='rectangle' height='64px' width='64px' />
 
 					<GeoShape2 className='rectangle' height='96px' width='96px' />
