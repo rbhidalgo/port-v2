@@ -284,7 +284,7 @@ img.intro-up-arrow:nth-child(3) {
 .top-img {
 	position: absolute;
 	z-index: 5;
-	left: -60px;
+	left: -55px;
 	/* transition: all 0.5s ease-in-out; */
 }
 /* .top-img:hover {
@@ -612,7 +612,7 @@ section.wrapper {
 		/* grid-column: 9/11; */
 		/* grid-row: 1/2; */
 		align-self: center;
-		max-height: 31.5rem;
+		max-height: 24.5rem;
 		mix-blend-mode: darken;
 	}
 	.intro-bkg-container {
