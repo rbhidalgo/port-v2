@@ -284,11 +284,12 @@ img.intro-up-arrow:nth-child(3) {
 .top-img {
 	position: absolute;
 	z-index: 5;
-	transition: all 0.5s ease-in-out;
+	left: -60px;
+	/* transition: all 0.5s ease-in-out; */
 }
-.top-img:hover {
+/* .top-img:hover {
 	opacity: 0;
-}
+} */
 .mid-img {
 	position: absolute;
 	z-index: 2;
@@ -612,6 +613,7 @@ section.wrapper {
 		/* grid-row: 1/2; */
 		align-self: center;
 		max-height: 31.5rem;
+		mix-blend-mode: darken;
 	}
 	.intro-bkg-container {
 		height: 45rem;

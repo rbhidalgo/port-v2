@@ -123,7 +123,7 @@ class IntroSection extends Component {
 						width='72'
 					/> */}
 
-					<img
+					{/* <img
 						src='/img/cookie-doggie.jpg'
 						className='mid-img'
 						style={{
@@ -137,7 +137,7 @@ class IntroSection extends Component {
 						style={{
 							transform: `rotate(${this.state.rotate2}) translate(${this.state.x2}, ${this.state.y2})`,
 						}}
-					/>
+					/> */}
 
 					<div className='intro-bkg-container'>
 						<img
