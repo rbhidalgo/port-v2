@@ -303,7 +303,7 @@ img.intro-up-arrow:nth-child(3) {
 }
 
 .intro-img-bkg {
-	background-color: var(--highlight);
+	background: url(/img/intro-browser-bk.svg);
 	border-radius: 0.6rem;
 	height: 45rem;
 	position: absolute;
@@ -312,6 +312,8 @@ img.intro-up-arrow:nth-child(3) {
 	right: 0;
 	bottom: 0;
 	z-index: -1;
+	background-size: cover;
+	background-blend-mode: hard-light;
 }
 
 /* Project Component */
