@@ -443,8 +443,8 @@ li.project-tech-tags-item {
 .section-skills ul {
 	text-transform: uppercase;
 	color: var(--neutral-light);
-	list-style-type: none;
-	line-height: 2;
+	list-style-type: circle;
+	line-height: 2.5;
 	column-count: 2;
 }
 
