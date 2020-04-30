@@ -274,6 +274,12 @@ span.down-arrow-center {
 	z-index: 5;
 }
 
+.intro-poly {
+	position: absolute;
+	left: -36px;
+	bottom: -50px;
+}
+
 img.intro-up-arrow:nth-child(2) {
 	left: -72px;
 }
@@ -459,7 +465,7 @@ li.project-tech-tags-item {
 }
 
 .section-skills ul li {
-	max-width: 16ch;
+	max-width: 15rem;
 }
 
 /* Portfolio Component */

@@ -74,7 +74,7 @@ class IntroSection extends Component {
 						className='primary-btn l-mt-48 l-mr-24 mt-24'>
 						get in touch
 					</motion.a>
-					<Link to='port' smooth={true} offset={-70} duration={500}>
+					<Link to='port' smooth={true} offset={-70} duration={500} href='#'>
 						<motion.a
 							whileTap={{ scale: 0.8 }}
 							href='#'
@@ -103,9 +103,9 @@ class IntroSection extends Component {
 						transition={{ delay: 0.1 }}
 					/> */}
 					<img src='/img/intro-rog.svg' className='top-img' />
-					<GeoShape className='rectangle' height='64px' width='64px' />
+					{/* <GeoShape className='rectangle' height='64px' width='64px' />
 
-					<GeoShape2 className='rectangle' height='96px' width='96px' />
+					<GeoShape2 className='rectangle' height='96px' width='96px' /> */}
 
 					{/* <motion.img
 						src='/img/intro-section-poly02.svg'
@@ -141,6 +141,11 @@ class IntroSection extends Component {
 
 					<div className='intro-bkg-container'>
 						<img
+							src='/img/intro-poly.svg'
+							className='intro-poly'
+							height='100'
+						/>
+						{/* <img
 							src='/img/intro-section-up-arrow.svg'
 							className='intro-up-arrow'
 							height='36'
@@ -157,10 +162,10 @@ class IntroSection extends Component {
 							className='intro-up-arrow'
 							height='36'
 							width='48'
-						/>
+						/> */}
 						<div className='intro-img-bkg'></div>
 						<img
-							src='/img/intro-section-ellipse01.svg'
+							src='/img/intro-circle.svg'
 							className='circle spinning'
 							height='81'
 							width='81'
