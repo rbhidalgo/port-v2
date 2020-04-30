@@ -280,6 +280,20 @@ span.down-arrow-center {
 	bottom: -50px;
 }
 
+.intro-circle {
+	position: absolute;
+	left: -36px;
+	top: -18px;
+	z-index: -2;
+}
+
+.intro-hash {
+	position: absolute;
+	right: 35px;
+	bottom: 90px;
+	z-index: -1;
+}
+
 img.intro-up-arrow:nth-child(2) {
 	left: -72px;
 }

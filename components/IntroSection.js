@@ -166,9 +166,16 @@ class IntroSection extends Component {
 						<div className='intro-img-bkg'></div>
 						<img
 							src='/img/intro-circle.svg'
-							className='circle spinning'
+							className='intro-circle'
 							height='81'
 							width='81'
+						/>
+
+						<img
+							src='/img/intro-hash.svg'
+							className='intro-hash'
+							height='60'
+							width='60'
 						/>
 
 						<img
