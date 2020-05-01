@@ -361,13 +361,15 @@ img.intro-up-arrow:nth-child(3) {
 		),
 		url(/img/intro-browser-bk.svg);
 	border-radius: 0.6rem;
-	position: fixed;
+	position: absolute;
 	top: 0;
-	left: -100px;
+	left: 0;
 	right: 0;
 	bottom: 0;
-	z-index: -2;
+	z-index: -5;
+	background-attachment: fixed;
 	background-size: cover;
+	background-position: center;
 	background-blend-mode: hard-light;
 }
 
