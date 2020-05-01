@@ -295,6 +295,13 @@ span.down-arrow-center {
 	z-index: -1;
 }
 
+.intro-brackets {
+	position: absolute;
+	right: -27px;
+	top: 90px;
+	z-index: 1;
+}
+
 img.intro-up-arrow:nth-child(2) {
 	left: -72px;
 }
@@ -706,7 +713,7 @@ section.wrapper {
 	}
 	.section-title h1 {
 		margin-bottom: 12rem;
-		grid-column: 2 / 6;
+		grid-column: 2 / auto;
 		/* margin-left: -2.4rem; */
 	}
 

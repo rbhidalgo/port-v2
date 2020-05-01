@@ -167,13 +167,20 @@ class IntroSection extends Component {
 						<img
 							src='/img/intro-circle.svg'
 							className='intro-circle'
-							height='81'
-							width='81'
+							height='94'
+							width='94'
 						/>
 
 						<img
 							src='/img/intro-hash.svg'
 							className='intro-hash'
+							height='60'
+							width='60'
+						/>
+
+						<img
+							src='/img/intro-brackets.svg'
+							className='intro-brackets'
 							height='60'
 							width='60'
 						/>
