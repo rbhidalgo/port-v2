@@ -56,9 +56,10 @@ class IntroSection extends Component {
 						Rogelio Hidalgo, Full Stack
 					</p>
 					<h1>Web Developer</h1>
-					<p className='headline-body primary-dark'>
+					<p className='headline-body primary-dark'>with a eye for UI/UX</p>
+					{/* <p className='headline-body primary-dark'>
 						with a creative edge and a eye for UI/UX
-					</p>
+					</p> */}
 					<p className='max-width primary-light'>
 						focusing on front-end development with the ability to be flexible
 						and adapt to various projects. My knowledge in full-stack
