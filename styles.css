@@ -689,6 +689,9 @@ section.wrapper {
 		max-height: 24.5rem;
 		mix-blend-mode: darken;
 	}
+	.intro-bkg-container {
+		height: 45rem;
+	}
 	.intro-img-bkg {
 		background: url(/img/intro-browser-bk.svg);
 		border-radius: 0.6rem;
@@ -712,8 +715,8 @@ section.wrapper {
 
 	.intro-hash {
 		position: absolute;
-		right: 35px;
-		bottom: 90px;
+		right: -30px;
+		bottom: 143px;
 		z-index: -1;
 	}
 
