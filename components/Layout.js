@@ -6,11 +6,10 @@ const Layout = ({ children, title }) => (
 	<>
 		<Head>
 			<title>{title}</title>
-			<description>
-				Rogelio Hidalgo, Full Stack Web Developer with a eye for UI/UX focusing
-				on front-end development with the ability to be flexible and adapt to
-				various projects.
-			</description>
+			<meta
+				name='description'
+				content='Rogelio Hidalgo, Full Stack Web Developer with a eye for UI/UX focusing on front-end development with the ability to be flexible and adapt to various projects.'
+			/>
 			<link rel='stylesheet' href='https://use.typekit.net/juf8edt.css'></link>
 			<link rel='shortcut icon' href='/img/rhidalgo.ico' />
 
