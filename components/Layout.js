@@ -22,10 +22,7 @@ const Layout = ({ children, title }) => (
 				property='og:image'
 				content='/img/rhidalgo-social-share-image.jpg'
 			/>
-			<meta
-				property='og:url'
-				content='https://rhidalgo-portv2-git-responsive.rhidalgo.now.sh/'
-			/>
+			<meta property='og:url' content='https://rhidalgo-portv2.now.sh/' />
 		</Head>
 		{/* <Navbar /> */}
 		<>{children}</>
