@@ -368,7 +368,7 @@ img.intro-up-arrow:nth-child(3) {
 	z-index: -5;
 	height: 100%;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: 100%;
 	background-position: center;
 	background-blend-mode: hard-light;
 }
