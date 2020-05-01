@@ -488,6 +488,7 @@ li.project-tech-tags-item {
 	list-style-type: circle;
 	line-height: 2.5;
 	column-count: 2;
+	margin-left: 1.8rem;
 }
 
 .section-skills ul li {
