@@ -328,11 +328,12 @@ img.intro-up-arrow:nth-child(3) {
 }
 
 .top-img {
-	max-height: 15rem;
+	max-height: 13rem;
 	position: absolute;
-	z-index: 5;
+	z-index: -1;
 	right: 0;
-	bottom: 12px;
+	bottom: 3%;
+	transform: rotateZ(-351deg);
 	mix-blend-mode: darken;
 }
 
@@ -360,7 +361,7 @@ img.intro-up-arrow:nth-child(3) {
 		),
 		url(/img/intro-browser-bk.svg);
 	border-radius: 0.6rem;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: -100px;
 	right: 0;
@@ -674,6 +675,8 @@ section.wrapper {
 		position: absolute;
 		z-index: 5;
 		left: -55px;
+		bottom: 21%;
+		transform: translateZ(0);
 		/* transition: all 0.5s ease-in-out; */
 	}
 
