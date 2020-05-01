@@ -56,9 +56,10 @@ class IntroSection extends Component {
 						Rogelio Hidalgo, Full Stack
 					</p>
 					<h1>Web Developer</h1>
-					<p className='headline-body primary-dark'>
+					<p className='headline-body primary-dark'>with a eye for UI/UX</p>
+					{/* <p className='headline-body primary-dark'>
 						with a creative edge and a eye for UI/UX
-					</p>
+					</p> */}
 					<p className='max-width primary-light'>
 						focusing on front-end development with the ability to be flexible
 						and adapt to various projects. My knowledge in full-stack
@@ -74,7 +75,7 @@ class IntroSection extends Component {
 						className='primary-btn l-mt-48 l-mr-24 mt-24'>
 						get in touch
 					</motion.a>
-					<Link to='port' smooth={true} offset={-70} duration={500}>
+					<Link to='port' smooth={true} offset={-70} duration={500} href='#'>
 						<motion.a
 							whileTap={{ scale: 0.8 }}
 							href='#'
@@ -92,7 +93,7 @@ class IntroSection extends Component {
 					</span>
 				</div>
 				<div className='intro-right-container'>
-					<motion.img
+					{/* <motion.img
 						src='/img/rogelio-photo-bio.jpg'
 						className='top-img'
 						onMouseOver={this.onMouseOver}
@@ -101,12 +102,13 @@ class IntroSection extends Component {
 						animate={{ x: 0, opacity: 1 }}
 						whileHover={{ opacity: 0, x: 85, zIndex: 1, delay: 0 }}
 						transition={{ delay: 0.1 }}
-					/>
-					{/* <GeoShape className='rectangle' height='64px' width='64px' /> */}
+					/> */}
+					<img src='/img/intro-rog.svg' className='top-img' />
+					{/* <GeoShape className='rectangle' height='64px' width='64px' />
 
-					{/* <GeoShape2 className='rectangle' height='96px' width='96px' /> */}
+					<GeoShape2 className='rectangle' height='96px' width='96px' /> */}
 
-					<motion.img
+					{/* <motion.img
 						src='/img/intro-section-poly02.svg'
 						className='intro-top-poly'
 						style={{ scale }}
@@ -120,9 +122,9 @@ class IntroSection extends Component {
 						style={{ scale }}
 						height='62'
 						width='72'
-					/>
+					/> */}
 
-					<img
+					{/* <img
 						src='/img/cookie-doggie.jpg'
 						className='mid-img'
 						style={{
@@ -136,10 +138,15 @@ class IntroSection extends Component {
 						style={{
 							transform: `rotate(${this.state.rotate2}) translate(${this.state.x2}, ${this.state.y2})`,
 						}}
-					/>
+					/> */}
 
 					<div className='intro-bkg-container'>
 						<img
+							src='/img/intro-poly.svg'
+							className='intro-poly'
+							height='100'
+						/>
+						{/* <img
 							src='/img/intro-section-up-arrow.svg'
 							className='intro-up-arrow'
 							height='36'
@@ -156,21 +163,40 @@ class IntroSection extends Component {
 							className='intro-up-arrow'
 							height='36'
 							width='48'
-						/>
+						/> */}
 						<div className='intro-img-bkg'></div>
 						<img
-							src='/img/intro-section-ellipse01.svg'
-							className='circle spinning'
-							height='81'
-							width='81'
+							src='/img/intro-circle.svg'
+							className='intro-circle'
+							height='94'
+							width='94'
 						/>
 
 						<img
+							src='/img/intro-hash.svg'
+							className='intro-hash'
+							height='60'
+							width='60'
+						/>
+
+						<img
+							src='/img/intro-brackets.svg'
+							className='intro-brackets'
+							height='60'
+							width='60'
+						/>
+
+						<img
+							src='/img/intro-laptop.svg'
+							className='intro-laptop'
+							height='300'
+						/>
+						{/* <img
 							src='/img/intro-section-ellipse01.svg'
 							className='big-circle spinning'
 							height='111'
 							width='111'
-						/>
+						/> */}
 					</div>
 				</div>
 			</motion.section>
