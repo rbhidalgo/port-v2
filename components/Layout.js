@@ -20,7 +20,7 @@ const Layout = ({ children, title }) => (
 			/>
 			<meta
 				property='og:image'
-				content='/img/rhidalgo-social-share-image.jpg'
+				content='/img/rhidalgo-social-share-image2.jpg'
 			/>
 			<meta property='og:url' content='https://www.rhidalgo.com/' />
 		</Head>
