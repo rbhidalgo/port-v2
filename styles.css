@@ -589,8 +589,9 @@ div.footer-right-socials a:last-child {
 	position: absolute;
 	bottom: 10%;
 	right: 10%;
+	height: 4.5rem;
 	background: var(--primary-light);
-	padding: 1rem;
+	padding: 0.5rem;
 	cursor: pointer;
 	transition: all ease-in-out 0.5s;
 }
