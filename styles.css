@@ -618,7 +618,7 @@ section.wrapper {
 	}
 }
 
-@media (min-width: 1039px) {
+@media (min-width: 1024px) {
 	div.wrapper,
 	section.wrapper {
 		max-width: 1366px;
