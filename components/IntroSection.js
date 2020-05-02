@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link, animateScroll as scroll } from 'react-scroll'
+import { Link } from 'react-scroll'
 import { motion, useViewportScroll, useTransform } from 'framer-motion'
 import GeoShape from './svg/GeoShape'
 import GeoShape2 from './svg/GeoShape2'
@@ -49,7 +49,7 @@ class IntroSection extends Component {
 			<motion.section
 				className='intro grid wrapper'
 				animate={{ opacity: 1, x: 0 }}
-				transition={{ delay: 0.2 }}
+				transition={{ delay: 0.2, ease: 'easeIn' }}
 				initial={{ opacity: 0, x: -200 }}>
 				<div className='intro-left-container'>
 					<p className='headline-body primary-light'>
