@@ -27,7 +27,6 @@ const Layout = ({ children, title }) => (
 		{/* <Navbar /> */}
 		<>{children}</>
 		<Footer />
-		<style jsx global>{``}</style>
 	</>
 )
 
