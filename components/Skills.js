@@ -31,7 +31,11 @@ const Skills = ({ scale }) => {
 	const skillItem = skills.map((skill, i) => <li key={i}>{skill}</li>)
 
 	return (
-		<section className='section-skills'>
+		<motion.section
+			className='section-skills'
+			animate={{ opacity: 1, x: 0 }}
+			transition={{ ease: 'easeInOut' }}
+			initial={{ opacity: 0, x: 200 }}>
 			<motion.img
 				src='/img/skills-rectangle.svg'
 				className='skills-rect-left'
@@ -94,7 +98,7 @@ const Skills = ({ scale }) => {
 					<ul>{skillItem}</ul>
 				</div>
 			</div>
-		</section>
+		</motion.section>
 	)
 }
 
