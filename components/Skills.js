@@ -34,7 +34,7 @@ const Skills = ({ scale }) => {
 		<motion.section
 			className='section-skills'
 			animate={{ opacity: 1, x: 0 }}
-			transition={{ delay: 0.2, ease: 'easeInOut' }}
+			transition={{ ease: 'easeInOut' }}
 			initial={{ opacity: 0, x: 200 }}>
 			<motion.img
 				src='/img/skills-rectangle.svg'

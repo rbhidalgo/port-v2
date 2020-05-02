@@ -49,7 +49,7 @@ class IntroSection extends Component {
 			<motion.section
 				className='intro grid wrapper'
 				animate={{ opacity: 1, x: 0 }}
-				transition={{ delay: 0.2, ease: 'easeIn' }}
+				transition={{ ease: 'easeIn' }}
 				initial={{ opacity: 0, x: -200 }}>
 				<div className='intro-left-container'>
 					<p className='headline-body primary-light'>
