@@ -35,6 +35,7 @@ const Footer = () => {
 				</a>
 				<a
 					href='/img/Rogelio-Hidalgo-Resume-wd20.pdf'
+					target='_blank'
 					className='secondary-btn'>
 					View my Resume
 				</a>
