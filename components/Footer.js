@@ -33,7 +33,9 @@ const Footer = () => {
 				<a href='mailto:hello@rhidalgo.com' className='secondary-btn'>
 					email me
 				</a>
-				<a href='#' className='secondary-btn'>
+				<a
+					href='/img/Rogelio-Hidalgo-Resume-20WD.pdf'
+					className='secondary-btn'>
 					View my Resume
 				</a>
 				<img
