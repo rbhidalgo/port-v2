@@ -34,10 +34,9 @@ const Footer = () => {
 					email me
 				</a>
 				<a
-					href='/img/Rogelio-Hidalgo-Resume-20WD.pdf'
-					download
+					href='/img/Rogelio-Hidalgo-Resume-wd20.pdf'
 					className='secondary-btn'>
-					Download my Resume
+					View my Resume
 				</a>
 				<img
 					src='/img/intro-section-up-arrow.svg'
