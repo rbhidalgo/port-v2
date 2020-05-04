@@ -56,7 +56,7 @@ class IntroSection extends Component {
 						Rogelio Hidalgo, Full Stack
 					</p>
 					<h1>Web Developer</h1>
-					<p className='headline-body primary-dark'>with a eye for UI/UX</p>
+					<p className='headline-body primary-dark'>with an eye for UI/UX</p>
 					{/* <p className='headline-body primary-dark'>
 						with a creative edge and a eye for UI/UX
 					</p> */}

@@ -228,9 +228,9 @@ span.down-arrow-center {
 	font-size: 3.8rem;
 }
 
-.intro-right-container {
-	/* grid-column: 2/4; */
-}
+/* .intro-right-container {
+	grid-column: 2/4;
+} */
 
 .circle {
 	position: absolute;
