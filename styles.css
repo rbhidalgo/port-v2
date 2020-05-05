@@ -671,7 +671,7 @@ section.wrapper {
 	}
 
 	.intro-right-container {
-		grid-column: 9/11;
+		grid-column: 10/12;
 		position: relative;
 		align-self: center;
 		display: flex;
