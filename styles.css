@@ -381,6 +381,7 @@ img.intro-up-arrow:nth-child(3) {
 
 li.project-item {
 	grid-column: 2/4;
+	padding: 2.4rem;
 	/* padding: 0 0.8rem; */
 	/* display: flex; */
 	/* flex-wrap: wrap; */
@@ -657,7 +658,7 @@ section.wrapper {
 	.grid {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
-		/* margin: 0 6.4rem; */
+		margin: 0 6.4rem;
 		grid-column-gap: 2.4rem;
 	}
 	.intro-left-container {
