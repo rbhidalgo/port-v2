@@ -72,7 +72,7 @@ class IntroSection extends Component {
 					<motion.a
 						whileTap={{ scale: 0.8 }}
 						href='mailto:hello@rhidalgo.com'
-						className='primary-btn l-mt-48 mr-48 l-mr-24 mt-24'>
+						className='primary-btn l-mt-48 mr-96 l-mr-24 mt-24'>
 						email me
 					</motion.a>
 					<Link to='port' smooth={true} offset={-70} duration={500} href='#'>
