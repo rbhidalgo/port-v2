@@ -381,7 +381,7 @@ img.intro-up-arrow:nth-child(3) {
 
 li.project-item {
 	grid-column: 2/4;
-	padding: 2.4rem;
+	/* padding: 2.4rem; */
 	/* padding: 0 0.8rem; */
 	/* display: flex; */
 	/* flex-wrap: wrap; */
@@ -746,6 +746,9 @@ section.wrapper {
 		bottom: -90px;
 		/* animation: spin 50s linear infinite; */
 		z-index: -1;
+	}
+	li.project-item {
+		padding: 2.4rem;
 	}
 
 	li.project-item:nth-child(odd) {
